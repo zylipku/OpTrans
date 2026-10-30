@@ -1,0 +1,31 @@
+{
+  "file": "confirmation_baseline.npz",
+  "numeric_environment": {
+    "numeric_threads": {
+      "MKL_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1"
+    },
+    "numpy": "2.5.2",
+    "python": "3.12.3",
+    "scipy": "1.18.1"
+  },
+  "numpy": "2.5.2",
+  "origin": "Recomputed with the unmodified pre-migration release/table1_projection engine.",
+  "origin_commit": "ef1405ff",
+  "scope": "Original engine rerun in the requested current environment. Distinct from the immutable published confirmation arrays, which were recorded using NumPy 2.4.6.",
+  "settings": 13,
+  "sha256": "6c23fea8988ad480e97035be9f195673c4bf3589caf06a9e416f201d4d8c4d13",
+  "source_sha256": {
+    "config/design.json": "71de9088cb07dea4f4121e63f01c3a20b08ee3ea050b544b8587b0ff35ae0f9f",
+    "config/dgp.json": "008f3127beef4f5112806011433849573b0f005541295be0dcb68310ab855f71",
+    "src/__init__.py": "d3a24db816d7d33a158b9a50c26ae3d465ccfae333c0affa79424d1de67553ee",
+    "src/development.py": "d7be9f48423083441f178433230d94bae731eb528b65d94d9441375c1bbf956a",
+    "src/diagnostics.py": "c535794668faf598b522ffe943d0555139edeb51d453b6ca5c1692a81f8534f9",
+    "src/estimators.py": "347ddfa6f2c5a98b2a508b4c428f054bc5ae6ba78349b419e45ffff0645cd0f6",
+    "src/model.py": "3eea65575e937174682addaf41b78e777edc6213ce3d367626c3634e98d9e384",
+    "src/reporting.py": "99b9acb0ec3c00bb8e651b708fcd8e082ea820c84d75ae4ef61783c542eccbcd",
+    "src/simulation.py": "3ea0b8de0154cbd6179c95d56ccd4f8ed471cf2a9aa46d593b3b8c3b67c411d1"
+  },
+  "trajectories": 3
+}

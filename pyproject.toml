@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "OpTrans"
+version = "1.0.0"
+description = "Numerical experiments for Transfer Learning for Operators"
+requires-python = ">=3.12"
+dependencies = ["numpy>=2.4,<3", "scipy>=1.18,<2", "PyYAML>=6,<7"]
+
+[project.scripts]
+transfer-operator-run = "transfer_operator.runner:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["transfer_operator*"]

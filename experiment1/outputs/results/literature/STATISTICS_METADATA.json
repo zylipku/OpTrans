@@ -1,0 +1,33 @@
+{
+  "atl_preselection": {
+    "kept_every_candidate": 12999,
+    "note": "Lin-Reimherr star aggregation: settings (trajectory x n0) in which the preselection kept all three candidates",
+    "settings": 13000
+  },
+  "comparator_over_method": "mean(right) / mean(left), with the bootstrap interval of the ratio of means",
+  "draws": 5000,
+  "intervals": "Pointwise 95% percentile paired trajectory bootstrap",
+  "labels": {
+    "hl_agg": "Hu & Lin (2025), Agg TL-FLR",
+    "jm_ts": "Jiao & McKeague (2025), TS",
+    "lr_atl": "Lin & Reimherr (2024), ATL-FLR",
+    "pilot": "Target only",
+    "pooling": "Pooling",
+    "projected_1": "Projected",
+    "unprojected": "Unprojected"
+  },
+  "methods": [
+    "pilot",
+    "pooling",
+    "unprojected",
+    "projected_1",
+    "jm_ts",
+    "lr_atl",
+    "hl_agg"
+  ],
+  "percentage_improvement": "100 * (1 - mean(left) / mean(right)); positive favours left",
+  "registered_methods": "Archived risks of outputs/data/confirmation_risks.npz; not recomputed here",
+  "resampling_unit": "Complete confirmation trajectory, jointly across sizes and all seven methods (the registered index matrix of STATISTICS_METADATA.json)",
+  "seed": 2026101491,
+  "trajectories": 1000
+}

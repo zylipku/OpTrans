@@ -1,0 +1,132 @@
+{
+  "diagnostics": "diagnostics.py is a new explicit runner for the supplementary checks discussed in D.4.4. The source package did not archive their historical raw outputs. No numerical diagnostic output is included or claimed as reproduced.",
+  "files": {
+    "experiment3/outputs/REPRODUCTION.json": {
+      "bytes": 1833,
+      "sha256": "9cd232de2867550146e21b066fca44172199e82ee5dfee10abcd513a96ab6529",
+      "source_sha256": "9cd232de2867550146e21b066fca44172199e82ee5dfee10abcd513a96ab6529",
+      "transformation": "unchanged"
+    },
+    "experiment3/outputs/results/SUMMARY.json": {
+      "bytes": 1733,
+      "sha256": "28404494e0ed04f584ff4ac21154ecdd84d5d0845f8521cf2a6ce4f5522ab90e",
+      "source_sha256": "28404494e0ed04f584ff4ac21154ecdd84d5d0845f8521cf2a6ce4f5522ab90e",
+      "transformation": "unchanged"
+    },
+    "experiment3/outputs/results/all_test_scores.csv": {
+      "bytes": 25378,
+      "sha256": "062f09a07a178da38f7ab77bec73348705e543f85544f2403b63debf45e2b1d9",
+      "source_sha256": "062f09a07a178da38f7ab77bec73348705e543f85544f2403b63debf45e2b1d9",
+      "transformation": "unchanged"
+    },
+    "experiment3/outputs/results/literature/SUMMARY.json": {
+      "bytes": 1999,
+      "sha256": "a9024fd9095ced75e59e6b2e82d5b2e49f78991546f49910caac35e5d31d2a51",
+      "source_sha256": "6b8b973bffeb2298bcccd3b342f60a50929f9240619b00a2405baef18562d35a",
+      "transformation": "Retained only jm_ts, lr_atl, hl_agg plus the four original methods; numeric values unchanged."
+    },
+    "experiment3/outputs/results/literature/all_test_scores.csv": {
+      "bytes": 20578,
+      "sha256": "4fa7b96d5089084e14cc4c70f5eab4afdc6a4c60e19106c4967666c549821b52",
+      "source_sha256": "879c4a91e9c905ae79f818f205378de6c9a8feb924260ed0c6be58a69dae3db4",
+      "transformation": "Retained only jm_ts, lr_atl, hl_agg plus the four original methods; numeric values unchanged."
+    },
+    "experiment3/outputs/results/literature/literature_selection.csv": {
+      "bytes": 44030,
+      "sha256": "6edd922097bbbe6341d8c9a769a14a31150649fc8c91c65e0fa78a6d2c9f416d",
+      "source_sha256": "10835699302cb69a617bf1af2382d1fd98956f2b09f641607893a3c198005167",
+      "transformation": "Retained only jm_ts, lr_atl, hl_agg plus the four original methods; numeric values unchanged."
+    },
+    "experiment3/outputs/results/literature/method_table.csv": {
+      "bytes": 646,
+      "sha256": "3af70be5d7d18bd8bef850a941cb9a56b0819602992b46c0aeabb0e75c51b98d",
+      "source_sha256": "c2c6a08e1363975183b857938fc7049e1b330b62d481ff22284a17c10d04fd85",
+      "transformation": "Retained only jm_ts, lr_atl, hl_agg plus the four original methods; numeric values unchanged."
+    },
+    "experiment3/outputs/results/literature/per_target_summary.csv": {
+      "bytes": 4780,
+      "sha256": "ba8d17a08859aad1810959fb853217e5c9ab732cf13f0224563d4cad0c321f62",
+      "source_sha256": "e1f4489a8a0aa98c67dfed281c5632e00171c6d2cb6820e44c39a9e137032dcb",
+      "transformation": "Retained only jm_ts, lr_atl, hl_agg plus the four original methods; numeric values unchanged."
+    },
+    "experiment3/outputs/results/method_table.csv": {
+      "bytes": 350,
+      "sha256": "ea1f6edcfb030507565aec9c72f981567fb5bff7d698f036a242a1903e10158e",
+      "source_sha256": "ea1f6edcfb030507565aec9c72f981567fb5bff7d698f036a242a1903e10158e",
+      "transformation": "unchanged"
+    },
+    "experiment3/outputs/results/per_target_summary.csv": {
+      "bytes": 2797,
+      "sha256": "ef92f0ffb5bb8848315a0c6476460729213dab807467b4f71b141400d85b0d26",
+      "source_sha256": "ef92f0ffb5bb8848315a0c6476460729213dab807467b4f71b141400d85b0d26",
+      "transformation": "unchanged"
+    },
+    "experiment3/outputs/results/pooling_selection.csv": {
+      "bytes": 2963,
+      "sha256": "ca5e16b8b62b7d0505403acc9b429ca594e702bdc989a4aed86149a26e31ece9",
+      "source_sha256": "ca5e16b8b62b7d0505403acc9b429ca594e702bdc989a4aed86149a26e31ece9",
+      "transformation": "unchanged"
+    },
+    "experiment3/outputs/results/representation_meta_cv.csv": {
+      "bytes": 137945,
+      "sha256": "d4ffdc8faacabe308be77572e12ea61f1b464e509dbe022310c5476c50d42a33",
+      "source_sha256": "d4ffdc8faacabe308be77572e12ea61f1b464e509dbe022310c5476c50d42a33",
+      "transformation": "unchanged"
+    },
+    "experiment3/outputs/results/source_selection.csv": {
+      "bytes": 32056,
+      "sha256": "002ca3c4ea8c1e44627b27f1d8ed139f9457f0fd5c592bb7c62c3bcb3710563a",
+      "source_sha256": "002ca3c4ea8c1e44627b27f1d8ed139f9457f0fd5c592bb7c62c3bcb3710563a",
+      "transformation": "unchanged"
+    },
+    "experiment3/outputs/results/target_classes.json": {
+      "bytes": 5352,
+      "sha256": "614ebe5810a898a15bd187a311db147ae96d13df851e7ad6532df1184a40fade",
+      "source_sha256": "614ebe5810a898a15bd187a311db147ae96d13df851e7ad6532df1184a40fade",
+      "transformation": "unchanged"
+    }
+  },
+  "final_manuscript": {
+    "filename": "Transfer_Operator_Learning.pdf",
+    "redistributed": false,
+    "sha256": "b576ca56aabd2092805f341b49701ee4fe16378e9ef7cd8d177e5628dd336819"
+  },
+  "historical_base_runs": {
+    "ltv_target_v2": {
+      "archive": "LTV_TARGET_REPRESENTATION_FIRST_V2_20260924_33968828_RESULTS.zip",
+      "date": "2026-09-24",
+      "design_sha256": "33968828ffe4c9311cf9f3b5d3e5c1376778f7e88f2ab9bb63be2b5698fd04c8",
+      "id": "LTV_target_representation_first_02",
+      "methods": [
+        "Target only",
+        "Unprojected",
+        "Projected"
+      ]
+    },
+    "naive_pooling": {
+      "archive": "NAIVE_POOLING_RESULTS_20260925_dd6a02bc.zip",
+      "date": "2026-09-25",
+      "design_sha256": "dd6a02bc81f7aac790db9d2b808743d47f933d9c48f94f386e7695f603aae36c",
+      "methods": [
+        "Pooling"
+      ]
+    }
+  },
+  "historical_verification": "REPRODUCTION.json records the original 2026-10-26 four-method check, not a new seven-method benchmark rerun.",
+  "package_verification": "Frozen seven-method aggregate and per-target tables recomputed from retained per-rotation scores; no benchmark raw-data rerun during packaging.",
+  "paper_scope": "Final manuscript Section 4.4, Tables 1-4 and Appendix D.4: electronic LTV filter.",
+  "path_root": ".",
+  "raw_data": {
+    "bytes": 227072311,
+    "mat_files": 49,
+    "name": "data_LPV.zip",
+    "note": "Container SHA-256 values are recorded by run.py prepare (PREPARE.json) and in the audit catalogue; the release stores only derived design channels in configs/design.json.",
+    "redistributed": false,
+    "reference": "Lataire, Louarroudi, Pintelon, Rolain (2015). Benchmark data on a linear time- and parameter-varying system. IFAC-PapersOnLine 48(28), 1477-1482.",
+    "sha256": "cbc58ad9541f073326f61ce463ca0be0b41d62f450f13ed9000eb2b492d2dc2d",
+    "url": "https://www.kth.se/social/files/558d84b7f276541077ddc833/data_LPV.zip"
+  },
+  "source_commit": "6f4225d9b8c5724d0394c9c7a78bf1ed22bec8bd",
+  "source_directory": "release/",
+  "source_repository": "https://github.com/LiAlH4/Transfer-Operator-Learning"
+}

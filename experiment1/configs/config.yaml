@@ -1,0 +1,48 @@
+# Closed-form inputs; candidate floats retain their original repr values.
+version: 1
+model:
+  family: coupled
+  K: 512
+  beta: 1.0
+  sigma: 1.0
+  R: 1.0
+  nu_exponent: 2.0
+  mu_exponent: 1.0
+  target_exponent: 0.75
+dictionary:
+  cutoff: 16
+  layout: odd_even
+  exponent: 0.6
+perturbation:
+  tau1: 0.5
+  balance: w1/w2
+  reference_eta: 0.001
+sampling:
+  n0_values: [10, 20, 30, 40, 50, 70, 100, 200, 300, 400, 500, 700, 1000]
+  total_target_ratio: 20
+  source_target_ratios: [9.5, 9.5]
+development:
+  repetitions: 500
+  first_exp_id: 2026101410
+confirmation:
+  repetitions: 1000
+  exp_id: 2026101490
+bootstrap:
+  draws: 5000
+  seed: 2026101491
+grid:
+  lam0_frac: [3.16227766016838e-09, 1e-08, 3.16227766016838e-08, 1.0000000000000001e-07, 3.1622776601683797e-07, 1e-06, 3.1622776601683796e-06, 1e-05, 3.1622776601683795e-05, 0.0001, 0.00031622776601683794, 0.001, 0.0031622776601683794, 0.01, 0.03162277660168379, 0.1, 0.31622776601683794, 1.0, 3.1622776601683795]
+  lambar_frac: [3.162277660168379e-08, 1e-07, 3.162277660168379e-07, 1e-06, 3.162277660168379e-06, 1e-05, 3.1622776601683795e-05, 0.0001, 0.00031622776601683794, 0.001, 0.0031622776601683794, 0.01, 0.03162277660168379, 0.1, 0.316227766016838, 1.0000000000000002, 3.16227766016838, 10.000000000000002, 31.6227766016838]
+  lamj_frac: [1.0, 0.5, 0.25, 0.1, 0.05, 0.02, 0.01, 0.005, 0.002, 0.001, 0.0005, 0.0002, 0.0001, 5e-05]
+  eta_rule: [eq]
+numerics:
+  chunk: 8192
+  prefix_rule: maximum_then_prefix
+  iterations: 10
+  fixed_supports: true
+  rank_rtol: 1.0e-10
+frozen_selections: ../outputs/results/frozen_parameters.csv
+checksums:
+  model_arrays_sha256: 2274eab5d606d75adc41765d4a7efd904a3d33061608c366cc47e22557e3380d
+  dictionary_sha256: 79af19c9f64c15856e6078c9f702742757c6300a01e3f8a2b9b51ff50b25c98a
+  candidate_registry_sha256: 7452e40570b84c639419b031b616fb2f74cfddf7e3920ba11c3b830dd29c6901

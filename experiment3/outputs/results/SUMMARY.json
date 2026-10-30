@@ -1,0 +1,80 @@
+{
+  "targets": 8,
+  "rotations": 3,
+  "evaluations": 24,
+  "methods": [
+    "Target only",
+    "Pooling",
+    "Unprojected",
+    "Projected"
+  ],
+  "bands": [
+    "full_band",
+    "forced_lines",
+    "sideband_only"
+  ],
+  "target_classes": {
+    "MS_Harm_h3_N15640_RMS70_P2P350__g1": {
+      "R": 20,
+      "B": 40,
+      "smooth": 0.0001
+    },
+    "MS_Harm_h1_N15640_RMS70_P2P350__g1": {
+      "R": 15,
+      "B": 30,
+      "smooth": 0.0001
+    },
+    "MS_Harm_h3_N15640_RMS70_P2P350__g0": {
+      "R": 20,
+      "B": 40,
+      "smooth": 0.0001
+    },
+    "MS_Harm_h3_N15640_RMS70_P2P700__g1": {
+      "R": 15,
+      "B": 30,
+      "smooth": 0.0001
+    },
+    "MS_Harm_h1_N15640_RMS70_P2P350__g0": {
+      "R": 20,
+      "B": 40,
+      "smooth": 0.0001
+    },
+    "MS_Harm_h1_N15640_RMS70_P2P700__g0": {
+      "R": 20,
+      "B": 40,
+      "smooth": 0.0001
+    },
+    "MS_Harm_h1_N15640_RMS70_P2P700__g1": {
+      "R": 20,
+      "B": 40,
+      "smooth": 0.0001
+    },
+    "MS_Harm_h3_N15640_RMS70_P2P700__g0": {
+      "R": 15,
+      "B": 30,
+      "smooth": 0.0001
+    }
+  },
+  "method_means": {
+    "Target only": {
+      "full_band": 4.1654992599423484e-05,
+      "forced_lines": 1.0222994020943992e-06,
+      "sideband_only": 0.000347011024775268
+    },
+    "Pooling": {
+      "full_band": 0.1118715902991219,
+      "forced_lines": 0.018709802760854616,
+      "sideband_only": 0.7014239067148725
+    },
+    "Unprojected": {
+      "full_band": 2.6655741796506783e-05,
+      "forced_lines": 6.41699752257848e-07,
+      "sideband_only": 0.0002059959072515259
+    },
+    "Projected": {
+      "full_band": 2.652665628668367e-05,
+      "forced_lines": 5.980512491040604e-07,
+      "sideband_only": 0.00020575527369712544
+    }
+  }
+}

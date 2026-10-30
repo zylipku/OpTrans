@@ -1,0 +1,42 @@
+{
+  "difference_sign": "Left minus right; negative favors left",
+  "draws": 5000,
+  "improvement_sign": "Positive favors left",
+  "index_matrix_sha256": "b7ec1ec074945fc194cec2fac37f2c9e3cc344f9904c3ed56519b0eb0bf788cf",
+  "intervals": "Pointwise 95% percentile paired trajectory bootstrap; not simultaneous intervals",
+  "iteration_zero": "Pilot at the frozen Projected candidate lambda0; independent Target-only tuning is a separate baseline",
+  "iterations": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "percentage_improvement": "-100 * mean(left-right) / mean(right), algebraically 100*(1-mean(left)/mean(right))",
+  "resampling_unit": "Complete independent trajectory jointly across every size, baseline and iteration",
+  "seed": 2026101491,
+  "sizes": [
+    10,
+    20,
+    30,
+    40,
+    50,
+    70,
+    100,
+    200,
+    300,
+    400,
+    500,
+    700,
+    1000
+  ],
+  "trajectories": 1000,
+  "tuning": "Frozen before confirmation. No tuning, iteration selection, or minimum-risk envelope in this module.",
+  "zero_variance": "An observed constant paired difference has a point interval. No population variance claim."
+}

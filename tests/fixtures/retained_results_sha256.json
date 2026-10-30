@@ -1,0 +1,13 @@
+{
+  "files": {
+    "STATISTICS_METADATA.json": "c5e371b1a8f5a8b78b2cbb3c423058b198e64b353feba31f7a5d8299ad5dedaf",
+    "frozen_parameters.csv": "d86836e51f919c8fb3ad73c2c19be2eb53ad4efd6c6f31320bc4cb102c14f2fa",
+    "iteration_vs_first.csv": "97c153882eb0d01817120050c383cff738001348295889d7c6638ec25f7aa3c2",
+    "projection_ablation.csv": "15cef85af1226b41c923249b1d87e88ec65587d99c790ff140a007d9ae65266b",
+    "projection_vs_unprojected.csv": "4869e15b6bbbc930d1d30d017da2c884a964efdd0f7a9cd04aa010d16fb9b11a",
+    "summary_by_method_n0.csv": "0e17f22e77a26c8bcafd94f81c821d79e1c0bfb19c8d85c3e4085871684fe330"
+  },
+  "scope": "Final-paper functional comparison, frozen selections, projection ablation, and fixed-support invariance.",
+  "source_commit": "6f4225d9b8c5724d0394c9c7a78bf1ed22bec8bd",
+  "source_repository": "https://github.com/LiAlH4/Transfer-Operator-Learning"
+}

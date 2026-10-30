@@ -1,0 +1,20 @@
+# Experiment 3: real-data transfer for linear time-varying targets (Section 4.4, Tables 1-4).
+# The benchmark archive is not redistributed; download it and verify the hash.
+archive:
+  name: data_LPV.zip
+  url: https://www.kth.se/social/files/558d84b7f276541077ddc833/data_LPV.zip
+  reference: "Lataire, Louarroudi, Pintelon, Rolain (2015). Benchmark data on a linear time- and parameter-varying system. IFAC-PapersOnLine 48(28), 1477-1482."
+  sha256: cbc58ad9541f073326f61ce463ca0be0b41d62f450f13ed9000eb2b492d2dc2d
+  bytes: 227072311
+  mat_files: 49
+# Frozen design (targets, sources, shortlists and every rule constant) derived from the archive.
+design: configs/design.json
+design_sha256: d82bc49f549cc2dc9685a94a234388f86f53299af1a40a937acfb1dbfd5c1f83
+# Default directories of a re-run; override with --workdir / --raw-dir / --archive or the
+# environment variables LTV_RAW_DIR and LTV_ARCHIVE. Reruns never write into outputs/.
+workdir: .runs/experiment3
+jobs: 4
+# Comparison of a re-run against outputs/results: held-out errors are compared with this
+# relative tolerance, discrete choices (classes, sources, scales, smoothing) exactly.
+comparison:
+  rtol: 1.0e-9

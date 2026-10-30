@@ -1,0 +1,40 @@
+model: advection_diffusion
+radius: 12
+smoothness: 2
+tau: 1.0
+source_total: 32768
+source_allocation: equal_halves
+n0_grid: [256, 1024]
+sigma_grid: [0.05, 0.1, 0.25, 0.5]
+group: advection_sigma
+archive_cells: {256: [0, 1, 2, 3], 1024: [6, 7, 8, 9]}
+noise_profile: full
+risk: retained_galerkin
+replications: 300
+archived_refits: 3
+seed: 202610160501
+random_stream: SeedSequence([seed, replicate, task]).spawn(2); separate default_rng streams for forcing and noise
+pairing: common_forcing_and_noise_signs_across_sigma_and_n0
+penalties:
+  pilot: c0 * n0**(-2/3)
+  whitening: cbar * (n0+nS)**(-2/3)
+  refit: ((n0+nS)/n0) * eta
+  calibration: ctheta * (sqrt(neff(eta)/nj) + 1/(nj*sqrt(eta)) + n0**(-1/3))
+  effective_dimension: sum(q/(q+eta))
+  target: cT * n0**(-2/3)
+  pooling: cPool * (n0+nS)**(-2/3)
+frozen_multipliers:
+  Projected: {c0: 0.003, cbar: 0.003, ctheta: 0.02, archive_candidate: 0}
+  Unprojected: {c0: 0.003, cbar: 0.001, ctheta: 0.005, archive_candidate: 1}
+  Target_only: 0.001
+  Pooling: 0.0
+displayed_methods: [Unprojected, Projected]
+archive_risk_fields: {Unprojected: projection_off_risk, Projected: risk1}
+bootstrap:
+  seed: 202610160599
+  draws: 20000
+  confidence: 0.95
+  algorithm: integer_indices_then_counts_then_normalized_weights
+  unit: complete_replication
+  interval: pointwise_percentile
+  ratio: ratio_of_means

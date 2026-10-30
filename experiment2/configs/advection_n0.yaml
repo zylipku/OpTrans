@@ -1,0 +1,32 @@
+# Figure 3: registered sample-size study with two additional recalibration rounds.
+model: advection_diffusion
+radius: 12
+smoothness: 2
+tau: 1.0
+sigma: 0.25
+source_total: 32768
+source_allocation: equal_halves
+noise_profile: full
+risk: retained_galerkin
+n0_grid: [16, 32, 64, 128, 256, 512, 1024, 2048, 4096]
+replications: 300
+archived_refits: 3
+displayed_additional_rounds: [0, 1, 2]
+group: advection_n0
+seed: 202610250601
+random_stream: SeedSequence([seed, replicate, task]).spawn(2); separate default_rng streams for forcing and noise
+pairing: common_replicate_seeds_across_n0 (independent target samples per n0; same tuple rule as advection_sigma)
+penalties: same rules as advection_sigma.yaml
+frozen_multipliers:
+  Projected: {c0: 0.003, cbar: 0.003, ctheta: 0.02}
+  Unprojected: {c0: 0.003, cbar: 0.001, ctheta: 0.005}
+  Target_only: 0.001
+  Pooling: 0.0
+bootstrap:
+  seed: 202610250699
+  draws: 20000
+  confidence: 0.95
+  algorithm: integer_indices_then_counts_then_normalized_weights
+  unit: complete_replication
+  interval: pointwise_percentile
+runner: experiment2/advection_n0.py (calls transfer_operator.pde_replication.advection_replicate)

@@ -1,0 +1,30 @@
+# Literature baselines for Section 4.2 (functional regression), on the registered
+# experiment of config.yaml: same model, sizes, development worlds, confirmation
+# trajectories and risk (73). Nothing in config.yaml or its frozen selections changes.
+#
+#   jm_ts   Jiao & McKeague (2025, arXiv:2506.11367v4)  coefficient-shape transfer (TS)
+#   lr_atl  Lin & Reimherr (2024, ICML)                  ATL-FLR, Algorithms 2-3
+#   hl_agg  Hu & Lin (2025, AAAI)                         Agg TL-FLR, Algorithm 2
+#
+# Every method is tuned exactly like the four registered estimators: each candidate
+# is evaluated on the 500 development datasets per n0 and the smallest mean true risk
+# is frozen before the 1000 confirmation trajectories are drawn. JM jointly selects
+# truncation and source subset; the adaptive LR and HL methods rank sources from
+# the target training data.
+version: 1
+c_block: exact_least_squares_one   # noise-free shared block output: c = 1, as for Pooling
+# FPCA dimensions D (Jiao-McKeague) and m (Hu-Lin). Target-only truncated least squares
+# needs D <= n0 - 1; larger values are infeasible at that n0 and are not selectable.
+truncation: [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64, 96, 128, 192, 256]
+# Lin-Reimherr lambda_2 (target calibration) as a fraction of lambda_max(S_0): the
+# registered lam0_frac grid extended upward by three half-decades (the development
+# optimum sits at its top at n0 = 10, 20); lambda_1 (transfer step) as a fraction of
+# lambda_max of the summed source Gram: the registered lambar_frac grid.
+target_ridge: [3.16227766016838e-09, 1e-08, 3.16227766016838e-08, 1.0000000000000001e-07, 3.1622776601683797e-07, 1e-06, 3.1622776601683796e-06, 1e-05, 3.1622776601683795e-05, 0.0001, 0.00031622776601683794, 0.001, 0.0031622776601683794, 0.01, 0.03162277660168379, 0.1, 0.31622776601683794, 1.0, 3.1622776601683795, 10.0, 31.622776601683793, 100.0]
+source_ridge: [3.162277660168379e-08, 1e-07, 3.162277660168379e-07, 1e-06, 3.162277660168379e-06, 1e-05, 3.1622776601683795e-05, 0.0001, 0.00031622776601683794, 0.001, 0.0031622776601683794, 0.01, 0.03162277660168379, 0.1, 0.316227766016838, 1.0000000000000002, 3.16227766016838, 10.000000000000002, 31.6227766016838]
+# Hu-Lin lasso tau as a fraction of its zero-solution threshold: the registered lamj_frac grid.
+lasso: [1.0, 0.5, 0.25, 0.1, 0.05, 0.02, 0.01, 0.005, 0.002, 0.001, 0.0005, 0.0002, 0.0001, 5e-05]
+sample_split: first_and_second_half   # adaptive methods: i.i.d. target sample in index order
+selection: minimum_mean_development_risk_over_finite_candidates; ties_stable_candidate_order
+bootstrap: same_index_matrix_as_registered_confirmation   # seed 2026101491, 5000 draws
+pairing_check_atol: 1.0e-12   # recomputed Target only / Pooling risks vs the archived cube

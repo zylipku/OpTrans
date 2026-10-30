@@ -1,0 +1,35 @@
+# Literature baselines for Section 4.3 (advection-diffusion), on the registered studies
+# of Figure 3 (advection_n0.yaml) and Figure 2 (advection_sigma.yaml): same model, Fourier
+# truncation, sample sizes, noise levels, seeds, 300 replications and risk (75). The
+# registered estimators and their records are not rerun or changed.
+#
+#   jm_ts   Jiao & McKeague (2025, arXiv:2506.11367v4)  coefficient-shape transfer (TS)
+#   lr_atl  Lin & Reimherr (2024, ICML)                  ATL-FLR, Algorithms 2-3
+#   hl_agg  Hu & Lin (2025, AAAI)                         Agg TL-FLR, Algorithm 2
+#
+# Tuning is fixed before evaluation, as for the registered estimators: each new method's
+# candidate is the smallest mean risk over 300 development replications drawn with the
+# independent seeds below, separately for every displayed setting (a choice at least as
+# favourable to the new methods as the registered fixed-multiplier rules).
+version: 1
+scenarios:
+  advection_n0:                 # Figure 3: sigma = 0.25, n0 = 16..4096
+    config: advection_n0.yaml
+    development_seed: 202610260601
+  advection_sigma:              # Figure 2: n0 = 256, 1024; sigma = 0.05..0.5
+    config: advection_sigma.yaml
+    development_seed: 202610260501
+development_replications: 300
+# FPCA dimensions in units of H: the constant mode or one frequency pair (313 = all).
+truncation: [1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64, 96, 128, 192, 256, 313]
+# Fractions of the largest Gram eigenvalue (Lin-Reimherr) and of the zero-solution lasso
+# threshold (Hu-Lin): the registered grids of experiment1/configs/config.yaml, with the
+# transfer-step fraction extended down to 0 (unpenalised pooled source least squares),
+# where its development optimum lies.
+target_ridge: [3.16227766016838e-09, 1e-08, 3.16227766016838e-08, 1.0000000000000001e-07, 3.1622776601683797e-07, 1e-06, 3.1622776601683796e-06, 1e-05, 3.1622776601683795e-05, 0.0001, 0.00031622776601683794, 0.001, 0.0031622776601683794, 0.01, 0.03162277660168379, 0.1, 0.31622776601683794, 1.0, 3.1622776601683795]
+source_ridge: [0.0, 1.0e-10, 1.0e-09, 3.1622776601683795e-09, 1.0e-08, 3.162277660168379e-08, 1e-07, 3.162277660168379e-07, 1e-06, 3.162277660168379e-06, 1e-05, 3.1622776601683795e-05, 0.0001, 0.00031622776601683794, 0.001, 0.0031622776601683794, 0.01, 0.03162277660168379, 0.1, 0.316227766016838, 1.0000000000000002, 3.16227766016838, 10.000000000000002, 31.6227766016838]
+lasso: [1.0, 0.5, 0.25, 0.1, 0.05, 0.02, 0.01, 0.005, 0.002, 0.001, 0.0005, 0.0002, 0.0001, 5e-05]
+sample_split: first_and_second_half
+selection: minimum_mean_development_risk_over_finite_candidates; ties_stable_candidate_order
+bootstrap: registered seed, draws and index algorithm of each scenario
+pairing_check: {atol: 1.0e-12, rtol: 0.0}  # floating archive compatibility; identities unchanged

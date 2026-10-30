@@ -1,0 +1,4 @@
+# Preserve numerical archives and CSV bytes.
+* text eol=lf
+*.csv -text whitespace=cr-at-eol
+*.npz -text

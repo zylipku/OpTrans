@@ -1,0 +1,205 @@
+{
+  "configuration": "experiment1/configs/config.yaml",
+  "confirmation_exp_id": 2026101490,
+  "confirmation_settings": 13000,
+  "confirmation_trajectories": 1000,
+  "data_retention": {
+    "excluded": [
+      "historical experiments",
+      "previous development caches",
+      "duplicated raw confirmation JSON and risk CSV",
+      "old adapters and machine-specific paths",
+      "plotting code, notebooks and generated figures",
+      "unreported lr_tl and hl_tl standalone comparisons and target_c1 reference",
+      "selection-stability and tuning-boundary exploratory reports",
+      "iteration-versus-pilot and simultaneous-contrast reports"
+    ],
+    "kept": [
+      "closed-form DGP specification, exact grid floats, array checksums and frozen candidate IDs",
+      "all individual confirmation risks",
+      "compact numeric diagnostics and data/operator fingerprints",
+      "development mean/MCSE/count for every candidate",
+      "final-paper comparisons and paired intervals; matched-Unprojected ablation and fixed-support invariance"
+    ],
+    "regenerated_on_demand": [
+      "raw observations from registered random streams",
+      "full development candidate-by-replication matrix",
+      "bootstrap arrays from fixed resampling seed"
+    ]
+  },
+  "development_datasets": 6500,
+  "dictionary_sha256": "79af19c9f64c15856e6078c9f702742757c6300a01e3f8a2b9b51ff50b25c98a",
+  "experiment_date": "2026-10-14",
+  "files": {
+    "experiment1/outputs/data/confirmation_diagnostics.npz": {
+      "bytes": 10594952,
+      "sha256": "647794fc0af5ac7da90daf730f80985614e34e1948cf1952c57b87b5c46015b8",
+      "source_sha256": "647794fc0af5ac7da90daf730f80985614e34e1948cf1952c57b87b5c46015b8",
+      "transformation": "unchanged"
+    },
+    "experiment1/outputs/data/confirmation_risks.npz": {
+      "bytes": 596725,
+      "sha256": "936b553f0dad4f4304398845eac7048bd853da59af7961b1f794e315802151c3",
+      "source_sha256": "936b553f0dad4f4304398845eac7048bd853da59af7961b1f794e315802151c3",
+      "transformation": "unchanged"
+    },
+    "experiment1/outputs/data/confirmation_schema.json": {
+      "bytes": 1535,
+      "sha256": "d9003a9db5f794456420688eced03698543cc2e2fb3195d073ac9ebd4ed67641",
+      "source_sha256": "d9003a9db5f794456420688eced03698543cc2e2fb3195d073ac9ebd4ed67641",
+      "transformation": "unchanged"
+    },
+    "experiment1/outputs/data/development_schema.json": {
+      "bytes": 3126,
+      "sha256": "96c3e7c97039dc2fb177dc8d22e65a6ec0df5df168321b68ad266bb0f166ebc8",
+      "source_sha256": "96c3e7c97039dc2fb177dc8d22e65a6ec0df5df168321b68ad266bb0f166ebc8",
+      "transformation": "unchanged"
+    },
+    "experiment1/outputs/data/development_summary.npz": {
+      "bytes": 1601359,
+      "sha256": "3ae2bb50ba7591a57662e2553309474a30acedda565865c4a81beea37bdc95fc",
+      "source_sha256": "3ae2bb50ba7591a57662e2553309474a30acedda565865c4a81beea37bdc95fc",
+      "transformation": "unchanged"
+    },
+    "experiment1/outputs/data/diagnostics_schema.json": {
+      "bytes": 4820,
+      "sha256": "84af4163094d411b2c2cfe3028fafcec426b976282cb2d1cff617a55334bc448",
+      "source_sha256": "84af4163094d411b2c2cfe3028fafcec426b976282cb2d1cff617a55334bc448",
+      "transformation": "unchanged"
+    },
+    "experiment1/outputs/data/literature_confirmation.npz": {
+      "bytes": 684779,
+      "sha256": "28a03bda0c5adf1902bdf2dd29cb299c2c741f16d4636e0229c530292349361d",
+      "source_sha256": "54fe5c8856c6436fe76b44dd87f3d9d5a7709c5aeb0a72488d51b003113360d6",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment1/outputs/results/STATISTICS_METADATA.json": {
+      "bytes": 1172,
+      "sha256": "c5e371b1a8f5a8b78b2cbb3c423058b198e64b353feba31f7a5d8299ad5dedaf",
+      "source_sha256": "95c2620c1de27b71682769d7c0701dc15fe5fbb2c5d6dd3f6460061203cacace",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment1/outputs/results/frozen_parameters.csv": {
+      "bytes": 2977,
+      "sha256": "d86836e51f919c8fb3ad73c2c19be2eb53ad4efd6c6f31320bc4cb102c14f2fa",
+      "source_sha256": "d86836e51f919c8fb3ad73c2c19be2eb53ad4efd6c6f31320bc4cb102c14f2fa",
+      "transformation": "unchanged"
+    },
+    "experiment1/outputs/results/iteration_vs_first.csv": {
+      "bytes": 17725,
+      "sha256": "97c153882eb0d01817120050c383cff738001348295889d7c6638ec25f7aa3c2",
+      "source_sha256": "7246e3ff54dd6d5c95dd757489b67f6b2be2fd150a6a92ff318748f4fa2a26d9",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment1/outputs/results/literature/STATISTICS_METADATA.json": {
+      "bytes": 1207,
+      "sha256": "f6d20f704a99f043fb96e7d8a20af85c1273c1854b2b0e6ee79edc78f4045f7c",
+      "source_sha256": "c07e31c54fc673074ae9590db96cd23a91dc1ac00c1d381ea6c307f591a5a436",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment1/outputs/results/literature/development_summary.npz": {
+      "bytes": 112260,
+      "sha256": "68b724764fc5179eaa484c61e7d856069241ff6e975dc2aa95fdc63b929fb0ab",
+      "source_sha256": "0898ceb81ac20cec896fe674d33b8cb63382bfd558cb2be86a51451b084edbda",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment1/outputs/results/literature/frozen_parameters.csv": {
+      "bytes": 7846,
+      "sha256": "44c7b27c276e1abc06f89b944f5d44f3da54f3413f926f04d2cd2dffbd6d7f71",
+      "source_sha256": "e8c4b7a2ed279903a114a52e2667f237d44c0fbf75c87a50c59073a4ca4d9c4c",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment1/outputs/results/literature/paired_comparisons.csv": {
+      "bytes": 33931,
+      "sha256": "3c8f60eb4db89b5180eab5ab29c3b25d454289ec8af5ac36c49bca96881b59db",
+      "source_sha256": "dfe2e83ab3348834fe85f238bc7bd52fcc5fd6b2d7c5252a614456e8d1d44d2d",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment1/outputs/results/literature/summary_by_method_n0.csv": {
+      "bytes": 16090,
+      "sha256": "bfd8645e653f1f717a96b81a13d130b8817317975dcc53609534dccc79d8f849",
+      "source_sha256": "859fff8d6f903e9979eb3416a53404c11cae1ed154ff642b77ee51506fe7762e",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment1/outputs/results/projection_ablation.csv": {
+      "bytes": 4064,
+      "sha256": "15cef85af1226b41c923249b1d87e88ec65587d99c790ff140a007d9ae65266b",
+      "source_sha256": "15cef85af1226b41c923249b1d87e88ec65587d99c790ff140a007d9ae65266b",
+      "transformation": "unchanged"
+    },
+    "experiment1/outputs/results/projection_vs_unprojected.csv": {
+      "bytes": 3924,
+      "sha256": "4869e15b6bbbc930d1d30d017da2c884a964efdd0f7a9cd04aa010d16fb9b11a",
+      "source_sha256": "4869e15b6bbbc930d1d30d017da2c884a964efdd0f7a9cd04aa010d16fb9b11a",
+      "transformation": "unchanged"
+    },
+    "experiment1/outputs/results/summary_by_method_n0.csv": {
+      "bytes": 46949,
+      "sha256": "0e17f22e77a26c8bcafd94f81c821d79e1c0bfb19c8d85c3e4085871684fe330",
+      "source_sha256": "0e17f22e77a26c8bcafd94f81c821d79e1c0bfb19c8d85c3e4085871684fe330",
+      "transformation": "unchanged"
+    }
+  },
+  "final_manuscript": {
+    "filename": "Transfer_Operator_Learning.pdf",
+    "redistributed": false,
+    "sha256": "b576ca56aabd2092805f341b49701ee4fe16378e9ef7cd8d177e5628dd336819"
+  },
+  "frozen_parameters_sha256": "ff59db7097f32d0a809e3b9823540e9b7cff7f22fdf9f9e47fe77a09d8294610",
+  "frozen_utc": "2026-10-14T03:56:50.039827+00:00",
+  "full_experiment_rerun": false,
+  "model_arrays_sha256": "2274eab5d606d75adc41765d4a7efd904a3d33061608c366cc47e22557e3380d",
+  "original_confirmation_first_started_utc": "2026-10-14T03:56:56.411089+00:00",
+  "original_provenance_sha256": "14bbb318accd0f7c39b5e4ea6f2543520abe40ba08a90bdf6b3a6f10c30aebc4",
+  "original_release_manifest_sha256": "af676dd1f78072cea2823cad7a94ec590a7db0786a6a1c2765f95f85fea8c130",
+  "packaged_from_commit": "6f4225d9b8c5724d0394c9c7a78bf1ed22bec8bd",
+  "packaging_engine_equivalence": {
+    "array_count": 30,
+    "every_array_bitwise_equal": true,
+    "max_archive_numeric_diagnostic_difference": 2.6645352591003757e-14,
+    "max_archive_risk_difference": 1.0547118733938987e-14,
+    "numeric_environment": {
+      "BLAS_threads": 1,
+      "numpy": "2.5.2",
+      "python": "3.12.14",
+      "scipy": "1.18.1"
+    },
+    "raw_full_data_fingerprints_exact": 9,
+    "raw_prefix_data_fingerprints_exact": 117,
+    "raw_target_data_fingerprints_exact": 39,
+    "risk_cells": 585,
+    "scope": "unchanged source release versus slim package, separate processes, trajectories 0/1/2 across all 13 n0",
+    "source_covariance_fingerprint_cells": 78,
+    "source_covariance_fingerprint_mismatches": 48,
+    "source_response_moment_fingerprints_exact": 78,
+    "unchanged_numerical_modules": {
+      "estimators.py": true,
+      "model.py": true,
+      "simulation.py": true
+    }
+  },
+  "paper_scope": "Final manuscript Section 4.2, Figure 1 and Appendix D.2: functional regression, matched-Unprojected ablation and fixed-support invariance.",
+  "path_root": ".",
+  "portability": "Scientific code and configuration reside within this package. No source experiment tree is needed for fitting or validation.",
+  "purpose": "Standalone current-experiment snapshot, not an archive of experiment-development history.",
+  "registered_protocol_sha256": "61c95a004db973309e8718117332c568a0df2bbf17383a6f8180e0f75ab3b80b",
+  "release": "experiment1",
+  "results_commit": "831ca535",
+  "retained_literature_methods": [
+    "jm_ts",
+    "lr_atl",
+    "hl_agg"
+  ],
+  "source_commit": "6f4225d9b8c5724d0394c9c7a78bf1ed22bec8bd",
+  "source_directory": "release/",
+  "source_experiment_manifest_sha256": "e97d10725bd23c0d842173f5976ad760960325d81420fff5a7725f52abee8917",
+  "source_repository": "https://github.com/LiAlH4/Transfer-Operator-Learning",
+  "verification": "tests/README.md",
+  "verification_policy": {
+    "archive_float_atol": 1e-12,
+    "archive_float_rtol": 0,
+    "derived_floating_fingerprints": "Source covariance/response-moment and fitted coefficient hashes report bitwise equality informationally; raw observations, supports, frozen selections and discrete diagnostics remain exact. All retained numerical arrays retain atol=1e-12, rtol=0.",
+    "exact": "Model/dictionary/grid checksums, candidate IDs, discrete diagnostics, data fingerprints and retained scientific result cells. Numerical comparison values were selected without changes from the source release.",
+    "scope": "Runnable tests recompute three development datasets and three confirmation trajectories; the stored 6500 development datasets and 1000 confirmation trajectories were not rerun."
+  }
+}

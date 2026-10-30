@@ -1,0 +1,72 @@
+{
+  "evaluations": 24,
+  "methods": [
+    "Target only",
+    "Pooling",
+    "Unprojected",
+    "Projected",
+    "Jiao & McKeague (2025), TS",
+    "Lin & Reimherr (2024), ATL-FLR",
+    "Hu & Lin (2025), Agg TL-FLR"
+  ],
+  "bands": [
+    "full_band",
+    "forced_lines",
+    "sideband_only"
+  ],
+  "refit_max_relative_difference": {
+    "Target only": 1.17145483291375e-10,
+    "Pooling": 1.732603132340167e-14
+  },
+  "method_means": {
+    "Target only": {
+      "full_band": 4.1654992599423484e-05,
+      "forced_lines": 1.0222994020943992e-06,
+      "sideband_only": 0.000347011024775268
+    },
+    "Pooling": {
+      "full_band": 0.1118715902991219,
+      "forced_lines": 0.018709802760854616,
+      "sideband_only": 0.7014239067148725
+    },
+    "Unprojected": {
+      "full_band": 2.6655741796506783e-05,
+      "forced_lines": 6.41699752257848e-07,
+      "sideband_only": 0.0002059959072515259
+    },
+    "Projected": {
+      "full_band": 2.652665628668367e-05,
+      "forced_lines": 5.980512491040604e-07,
+      "sideband_only": 0.00020575527369712544
+    },
+    "Jiao & McKeague (2025), TS": {
+      "full_band": 0.0019304366085670457,
+      "forced_lines": 0.0017102579255425076,
+      "sideband_only": 0.004832535352501279
+    },
+    "Lin & Reimherr (2024), ATL-FLR": {
+      "full_band": 4.1511784548127516e-05,
+      "forced_lines": 8.057258057468299e-07,
+      "sideband_only": 0.0003482639751065984
+    },
+    "Hu & Lin (2025), Agg TL-FLR": {
+      "full_band": 5.5337690919923876e-05,
+      "forced_lines": 1.2666245068599695e-05,
+      "sideband_only": 0.00038266938518787176
+    }
+  },
+  "prediction_difference_to_target_only": {
+    "Jiao & McKeague (2025), TS": {
+      "median": 0.046408555373079995,
+      "max": 0.07228558321731511
+    },
+    "Lin & Reimherr (2024), ATL-FLR": {
+      "median": 0.0002981740865192046,
+      "max": 0.007839050423986612
+    },
+    "Hu & Lin (2025), Agg TL-FLR": {
+      "median": 0.002098542393665152,
+      "max": 0.009731288190904096
+    }
+  }
+}

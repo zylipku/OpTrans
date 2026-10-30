@@ -1,0 +1,129 @@
+{
+  "candidate_registry": "src.estimators.candidate_registry(); generated from exact config/design.json grid in stable order.",
+  "confirmation_used_for_selection": false,
+  "development_exp_ids": {
+    "10": 2026101410,
+    "100": 2026101416,
+    "1000": 2026101422,
+    "20": 2026101411,
+    "200": 2026101417,
+    "30": 2026101412,
+    "300": 2026101418,
+    "40": 2026101413,
+    "400": 2026101419,
+    "50": 2026101414,
+    "500": 2026101420,
+    "70": 2026101415,
+    "700": 2026101421
+  },
+  "limitations": "Candidate mean/MCSE suffices to audit selected minimizers. Cross-candidate development covariance and raw 500-replicate scores are not retained in this minimal release; regenerate development to recover them.",
+  "mcse": "Sample standard deviation across 500 independent development datasets, ddof=1, divided by sqrt(500).",
+  "methods": [
+    "pilot",
+    "pooling",
+    "unprojected",
+    "projected"
+  ],
+  "repetitions_per_setting": 500,
+  "schema_version": 1,
+  "selected_ids": {
+    "10": {
+      "pilot": 15,
+      "pooling": 15,
+      "projected": 4678,
+      "unprojected": 4187
+    },
+    "100": {
+      "pilot": 15,
+      "pooling": 15,
+      "projected": 3879,
+      "unprojected": 3881
+    },
+    "1000": {
+      "pilot": 14,
+      "pooling": 15,
+      "projected": 4131,
+      "unprojected": 3868
+    },
+    "20": {
+      "pilot": 15,
+      "pooling": 15,
+      "projected": 4411,
+      "unprojected": 4174
+    },
+    "200": {
+      "pilot": 14,
+      "pooling": 15,
+      "projected": 3613,
+      "unprojected": 3881
+    },
+    "30": {
+      "pilot": 15,
+      "pooling": 15,
+      "projected": 3613,
+      "unprojected": 4174
+    },
+    "300": {
+      "pilot": 14,
+      "pooling": 15,
+      "projected": 3865,
+      "unprojected": 3882
+    },
+    "40": {
+      "pilot": 15,
+      "pooling": 15,
+      "projected": 3879,
+      "unprojected": 4160
+    },
+    "400": {
+      "pilot": 14,
+      "pooling": 15,
+      "projected": 3865,
+      "unprojected": 3868
+    },
+    "50": {
+      "pilot": 15,
+      "pooling": 15,
+      "projected": 3347,
+      "unprojected": 4160
+    },
+    "500": {
+      "pilot": 14,
+      "pooling": 15,
+      "projected": 4131,
+      "unprojected": 3868
+    },
+    "70": {
+      "pilot": 15,
+      "pooling": 15,
+      "projected": 3347,
+      "unprojected": 3895
+    },
+    "700": {
+      "pilot": 14,
+      "pooling": 15,
+      "projected": 4131,
+      "unprojected": 3868
+    }
+  },
+  "selection_rule": "Smallest mean true prediction risk; exact ties prefer descending lamj_frac, lambar_frac, lam0_frac, then stable candidate ID. None lamj_frac represents infinity/no transfer.",
+  "sizes": [
+    10,
+    20,
+    30,
+    40,
+    50,
+    70,
+    100,
+    200,
+    300,
+    400,
+    500,
+    700,
+    1000
+  ],
+  "source_candidate_bank_sha256": "4b79f43586cfb1a4232271ec327c9d2c58fe9f09eb716f491f5e6a65be9bc19b",
+  "source_registry_sha256": "7452e40570b84c639419b031b616fb2f74cfddf7e3920ba11c3b830dd29c6901",
+  "summary_array_keys": "n{n0:03d}__{method}__{mean|mcse|finite_counts}",
+  "summary_axis": "Stable candidate ID; all candidates retained without filtering."
+}

@@ -1,0 +1,264 @@
+{
+  "excluded_studies": [
+    "variable-coefficient diffusion",
+    "population perturbations",
+    "pilot perturbations",
+    "unreported standalone lr_tl and hl_tl comparisons",
+    "hindsight and oracle diagnostics",
+    "unreported recalibration rounds",
+    "plotting and notebooks"
+  ],
+  "files": {
+    "experiment2/outputs/data/advection_sigma/cell000.npz": {
+      "bytes": 25685,
+      "sha256": "d0a3613c27279255103667d4c99d64a2011306d2510186c17f90b470ef1f2206",
+      "source_sha256": "78a48a125b78c134fb853db7b8a23a2c503be1c057131d26c6262d6c7b436b7b",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/data/advection_sigma/cell001.npz": {
+      "bytes": 25832,
+      "sha256": "9ec1ade175e8a65866cd71686a7881cde803a6535a4bac1e4d143524a7a5abd5",
+      "source_sha256": "94f95923dbe97c7ed3403bd58a3fbfad41cfe5ada6c1cee819eb0524b8e77cdd",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/data/advection_sigma/cell002.npz": {
+      "bytes": 26022,
+      "sha256": "078704b1627a79d2cc6420131d7facc22e3f2615ae2bcf1d0e78209378fef2e6",
+      "source_sha256": "cebdc6a54c2c107267f468cca82df3187eaa8915038057f23766f4634a8034e0",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/data/advection_sigma/cell003.npz": {
+      "bytes": 26329,
+      "sha256": "a9f86eb05406393f7688e523b395c968b095e1f20b0e79f122af23bb660a89e1",
+      "source_sha256": "a659da49e2abb01838b35d84e04e4d4673df31b1d769a4012fae1970a597c2af",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/data/advection_sigma/cell006.npz": {
+      "bytes": 25668,
+      "sha256": "5685a40ff0be87142e43ae0d9873a8844aa7269d88a198691a7d60fadc1249bb",
+      "source_sha256": "db58014e210c0858d52ff00e40b917d0c517adfd082f66a7443999066af69fc7",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/data/advection_sigma/cell007.npz": {
+      "bytes": 25804,
+      "sha256": "70e91279dd52834dcf16c27515d90416e123cde73bb2e9426b552c8b0787ca57",
+      "source_sha256": "b562bed7566d58492b6fe582c6de86c2b5203cb982fe67f50df1cfc6748f7b2f",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/data/advection_sigma/cell008.npz": {
+      "bytes": 25960,
+      "sha256": "c5ef2e233fb3d89c031868653abea5e9c2ad264086853acf950761dc5b2ddbaa",
+      "source_sha256": "26deda3294f3bab59d8fab4a3e28463fdaa272f8169dfb2328b4d6b4ad78da03",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/data/advection_sigma/cell009.npz": {
+      "bytes": 26199,
+      "sha256": "ca8a8b726877352efb7b6014020f178ed10f04e844a688ebd9114923b5aefdb6",
+      "source_sha256": "ba5ac920ebe89ae1f9967b86b5eba573a2f4d43bf9d52c773f7f1f2258ae82e4",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/advection_n0/SUMMARY.json": {
+      "bytes": 12362,
+      "sha256": "6101803c64c271a9e9221dcd4aa4445b08eb5155b1ff76cca280ba2499e520fc",
+      "source_sha256": "38940f70362bc176cf9d7049823bb665e129c9d0ab1d709bf59ee57133272eb7",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/advection_n0/risks.npz": {
+      "bytes": 148203,
+      "sha256": "3df0aff7bb6beb155b83d376159b303d6b1eb27a0d692f9ff1aed8121c1eb7ed",
+      "source_sha256": "940b37246e9f7500428bf6c260a54ac868e7ef509fff1cedfa42d8a6be34888e",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/advection_sigma/SIGMA_SUMMARY.json": {
+      "bytes": 34090,
+      "sha256": "05f8108efdb71cd81ec422c5d2e48fccb702aa3269f9a0beea24548c0990568c",
+      "source_sha256": "3afb15fbc9d543441a43b7f461024f3438bddec615447aa2a34ed87fd7fe2e3b",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/literature/DIAGNOSTICS.json": {
+      "bytes": 2306,
+      "sha256": "5254383270cb8f738fc4bb24aaf3b0ed989d7bd9126d1b4667180b340699dcd6",
+      "source_sha256": "8452eadf53d0880c03cfe3ad51a843f136c8f235f64ba6a299bfe75b09e5a5cb",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/literature/advection_n0/SUMMARY.json": {
+      "bytes": 13258,
+      "sha256": "d822027e6565132b88abd8bb33e5b929d506d2422a15d45a62791d5494d07f93",
+      "source_sha256": "535032dbab5fcc6a331108f59ccf3d492b892adf772ef5a14d3002ced937b8b3",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/literature/advection_n0/development_summary.npz": {
+      "bytes": 77646,
+      "sha256": "7cd829fac953ef6aa5ced1d4f68ce8133a5467c0125c51ac755c6fefef2e05ba",
+      "source_sha256": "34abe2ec02b6ef5bcb8b8bc80de9c5bae95f393ab1e93943b075d2b72b664837",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/literature/advection_n0/frozen_parameters.csv": {
+      "bytes": 5914,
+      "sha256": "83d3e14d4a05083f0040efdca20b13d975e3af813de270393ab8dbda911c2143",
+      "source_sha256": "1836ceae433d649c6d91161e5610ce66f83526491f4abcc9939034364b0cd023",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/literature/advection_n0/paired_comparisons.csv": {
+      "bytes": 12839,
+      "sha256": "346c75c0927e378396c0d34764bee60da3e293d08e56df8263fd008bb17d7b58",
+      "source_sha256": "47c300b15416d06d97586a911c337dd054f5706f3dff628000728ec68c8a0d77",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/literature/advection_n0/risks.npz": {
+      "bytes": 141274,
+      "sha256": "c35e96e1ae36a1ddb2a5d021b8b415257a65c2b2e09eafa3f23a2962462f8c39",
+      "source_sha256": "0d3cb1c3cecdd34e9f0086e050371963b540c884a18ac8d082d5bf4d3b8371f1",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/literature/advection_sigma/SUMMARY.json": {
+      "bytes": 11904,
+      "sha256": "25b5293b4507b87263234762131de5ce2365978c2c7168dd6c14deda437d6bba",
+      "source_sha256": "ddd609c3c0e9d0a56f2fb8a7fe7eef02808cf8fa65bd86442506b800e749b91d",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/literature/advection_sigma/development_summary.npz": {
+      "bytes": 70005,
+      "sha256": "fd78bb5ca87d4de7f466dd448ee4047da3bc6e6fb539fb9792de41db37a14460",
+      "source_sha256": "9757dc2a66d33c638add831dd5b85f125d22c5e5e40be0759ed012981553fe49",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/literature/advection_sigma/frozen_parameters.csv": {
+      "bytes": 5327,
+      "sha256": "ea15e0bc86f8c2749c1615bc09bfe1436ffff93d55d4be0cae19ffe772e6ea56",
+      "source_sha256": "5840fd2017a5f44b8231037f0acd906442dda9a74cd2d53a362dc92c7322bc93",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/literature/advection_sigma/paired_comparisons.csv": {
+      "bytes": 11403,
+      "sha256": "12e1c3324010b2dd54f1dae3ffcb53d6361edf6509d54871dc2476ee8d8b95cb",
+      "source_sha256": "ec6585a364d1570fe6282a6f237e44f0eefae09cc0aef2486b645e6874464f48",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/literature/advection_sigma/risks.npz": {
+      "bytes": 124498,
+      "sha256": "c97a8190a615d86ecaf1b616e7c3546813161aad856fee3ae7a672b956294a01",
+      "source_sha256": "fbaff65a5d3ead1ccaa64be8830f299ea28b237ad548745ea8fc099d1f7b49e0",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    }
+  },
+  "final_manuscript": {
+    "filename": "Transfer_Operator_Learning.pdf",
+    "redistributed": false,
+    "sha256": "b576ca56aabd2092805f341b49701ee4fe16378e9ef7cd8d177e5628dd336819"
+  },
+  "full_experiment_rerun": false,
+  "numerical_identity": "Retained records and method columns selected from the source without changing numerical values. Floating-point recomputation tolerance: atol=1e-12, rtol=0; discrete values and retained array bytes exact.",
+  "paper_scope": "Final manuscript Section 4.3, Figures 2-3 and Appendix D.3: advection-diffusion sigma/n0 studies, two recalibration rounds and spectral diagnostics.",
+  "path_root": ".",
+  "sigma_archive_selection": {
+    "arrays_verified": 45600,
+    "fields": [
+      "candidate",
+      "cell",
+      "replicate",
+      "method",
+      "multiplier",
+      "success",
+      "lam0",
+      "eta",
+      "ridge",
+      "neff",
+      "risk",
+      "risk0",
+      "risk1",
+      "risk2",
+      "risk3",
+      "projection_off_risk",
+      "j1_support",
+      "j2_support",
+      "exact_all"
+    ],
+    "files": [
+      {
+        "arrays_verified": 5700,
+        "bytes": 25685,
+        "file": "cell000.npz",
+        "original_bytes": 404865,
+        "original_sha256": "78a48a125b78c134fb853db7b8a23a2c503be1c057131d26c6262d6c7b436b7b",
+        "replications": 300,
+        "retained_fields": 19,
+        "sha256": "d0a3613c27279255103667d4c99d64a2011306d2510186c17f90b470ef1f2206"
+      },
+      {
+        "arrays_verified": 5700,
+        "bytes": 25832,
+        "file": "cell001.npz",
+        "original_bytes": 406266,
+        "original_sha256": "94f95923dbe97c7ed3403bd58a3fbfad41cfe5ada6c1cee819eb0524b8e77cdd",
+        "replications": 300,
+        "retained_fields": 19,
+        "sha256": "9ec1ade175e8a65866cd71686a7881cde803a6535a4bac1e4d143524a7a5abd5"
+      },
+      {
+        "arrays_verified": 5700,
+        "bytes": 26022,
+        "file": "cell002.npz",
+        "original_bytes": 408358,
+        "original_sha256": "cebdc6a54c2c107267f468cca82df3187eaa8915038057f23766f4634a8034e0",
+        "replications": 300,
+        "retained_fields": 19,
+        "sha256": "078704b1627a79d2cc6420131d7facc22e3f2615ae2bcf1d0e78209378fef2e6"
+      },
+      {
+        "arrays_verified": 5700,
+        "bytes": 26329,
+        "file": "cell003.npz",
+        "original_bytes": 410219,
+        "original_sha256": "a659da49e2abb01838b35d84e04e4d4673df31b1d769a4012fae1970a597c2af",
+        "replications": 300,
+        "retained_fields": 19,
+        "sha256": "a9f86eb05406393f7688e523b395c968b095e1f20b0e79f122af23bb660a89e1"
+      },
+      {
+        "arrays_verified": 5700,
+        "bytes": 25668,
+        "file": "cell006.npz",
+        "original_bytes": 404199,
+        "original_sha256": "db58014e210c0858d52ff00e40b917d0c517adfd082f66a7443999066af69fc7",
+        "replications": 300,
+        "retained_fields": 19,
+        "sha256": "5685a40ff0be87142e43ae0d9873a8844aa7269d88a198691a7d60fadc1249bb"
+      },
+      {
+        "arrays_verified": 5700,
+        "bytes": 25804,
+        "file": "cell007.npz",
+        "original_bytes": 405900,
+        "original_sha256": "b562bed7566d58492b6fe582c6de86c2b5203cb982fe67f50df1cfc6748f7b2f",
+        "replications": 300,
+        "retained_fields": 19,
+        "sha256": "70e91279dd52834dcf16c27515d90416e123cde73bb2e9426b552c8b0787ca57"
+      },
+      {
+        "arrays_verified": 5700,
+        "bytes": 25960,
+        "file": "cell008.npz",
+        "original_bytes": 408285,
+        "original_sha256": "26deda3294f3bab59d8fab4a3e28463fdaa272f8169dfb2328b4d6b4ad78da03",
+        "replications": 300,
+        "retained_fields": 19,
+        "sha256": "c5ef2e233fb3d89c031868653abea5e9c2ad264086853acf950761dc5b2ddbaa"
+      },
+      {
+        "arrays_verified": 5700,
+        "bytes": 26199,
+        "file": "cell009.npz",
+        "original_bytes": 410144,
+        "original_sha256": "ba5ac920ebe89ae1f9967b86b5eba573a2f4d43bf9d52c773f7f1f2258ae82e4",
+        "replications": 300,
+        "retained_fields": 19,
+        "sha256": "ca8a8b726877352efb7b6014020f178ed10f04e844a688ebd9114923b5aefdb6"
+      }
+    ]
+  },
+  "source_commit": "6f4225d9b8c5724d0394c9c7a78bf1ed22bec8bd",
+  "source_directory": "release/",
+  "source_repository": "https://github.com/LiAlH4/Transfer-Operator-Learning",
+  "verification": "Selected original-engine replay and stored risk/interval checks; see tests/README.md."
+}

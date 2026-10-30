@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-26",
+  "command": "python experiment3/run.py all --archive data_LPV.zip --jobs 8",
+  "environment": {
+    "python": "3.12.3",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "threads": "OMP/OPENBLAS/MKL_NUM_THREADS=1"
+  },
+  "runs": [
+    {
+      "raw": "pre-extracted containers (audit ltv_target/data)",
+      "prepare_s": 7,
+      "meta_s": 1,
+      "select_s": 43,
+      "evaluate_s": 0,
+      "comparison": {
+        "target_classes": {
+          "passed": true
+        },
+        "source_selection.csv": {
+          "passed": true
+        },
+        "pooling_selection.csv": {
+          "passed": true
+        },
+        "all_test_scores.csv": {
+          "passed": true,
+          "detail": {
+            "max_relative_difference": 0.0
+          }
+        },
+        "method_table.csv": {
+          "passed": true,
+          "detail": {
+            "max_relative_difference": 0.0
+          }
+        }
+      }
+    },
+    {
+      "raw": "fresh extraction of data_LPV.zip by run.py prepare",
+      "prepare_s": 7,
+      "meta_s": 2,
+      "select_s": 46,
+      "evaluate_s": 0,
+      "comparison": {
+        "target_classes": {
+          "passed": true
+        },
+        "source_selection.csv": {
+          "passed": true
+        },
+        "pooling_selection.csv": {
+          "passed": true
+        },
+        "all_test_scores.csv": {
+          "passed": true,
+          "detail": {
+            "max_relative_difference": 0.0
+          }
+        },
+        "method_table.csv": {
+          "passed": true,
+          "detail": {
+            "max_relative_difference": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "result": "Both runs reproduced the frozen design, all 864 meta-cache losses, all class/source/scale/smoothing choices and all 96 held-out errors bitwise (maximum relative difference 0)."
+}

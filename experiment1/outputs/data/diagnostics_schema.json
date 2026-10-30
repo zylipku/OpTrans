@@ -1,0 +1,304 @@
+{
+  "arrays": {
+    "calibration_moment_norm2": {
+      "dtype": "float64",
+      "shape": [
+        1000,
+        13,
+        11,
+        2
+      ]
+    },
+    "calibration_numerical_rank": {
+      "dtype": "uint8",
+      "shape": [
+        1000,
+        13,
+        11,
+        2
+      ]
+    },
+    "calibration_score_l2": {
+      "dtype": "float64",
+      "shape": [
+        1000,
+        13,
+        11,
+        2
+      ]
+    },
+    "coefficient_change_norm": {
+      "dtype": "float64",
+      "shape": [
+        1000,
+        13,
+        11
+      ]
+    },
+    "fit_c": {
+      "dtype": "float64",
+      "shape": [
+        1000,
+        13,
+        5
+      ]
+    },
+    "fit_operator_sha256": {
+      "dtype": "|S64",
+      "shape": [
+        1000,
+        13,
+        5
+      ]
+    },
+    "fit_penalties": {
+      "dtype": "float64",
+      "shape": [
+        1000,
+        13,
+        5,
+        6
+      ]
+    },
+    "fit_penalty_applicable": {
+      "dtype": "bool",
+      "shape": [
+        1000,
+        13,
+        5,
+        6
+      ]
+    },
+    "fixed_support": {
+      "dtype": "bool",
+      "shape": [
+        1000,
+        13,
+        2,
+        2
+      ]
+    },
+    "full_task_data_sha256": {
+      "dtype": "|S64",
+      "shape": [
+        1000,
+        3
+      ]
+    },
+    "has_ls_diagnostics": {
+      "dtype": "bool",
+      "shape": [
+        1000,
+        13,
+        11,
+        2
+      ]
+    },
+    "has_predecessor": {
+      "dtype": "bool",
+      "shape": [
+        1000,
+        13,
+        11
+      ]
+    },
+    "has_refit_projection_ranks": {
+      "dtype": "bool",
+      "shape": [
+        1000,
+        13,
+        11
+      ]
+    },
+    "iteration_c": {
+      "dtype": "float64",
+      "shape": [
+        1000,
+        13,
+        11
+      ]
+    },
+    "iteration_operator_sha256": {
+      "dtype": "|S64",
+      "shape": [
+        1000,
+        13,
+        11
+      ]
+    },
+    "iteration_theta": {
+      "dtype": "float64",
+      "shape": [
+        1000,
+        13,
+        11,
+        2,
+        2
+      ]
+    },
+    "n0": {
+      "dtype": "int64",
+      "shape": [
+        13
+      ]
+    },
+    "no_transfer": {
+      "dtype": "bool",
+      "shape": [
+        1000,
+        13
+      ]
+    },
+    "normalized_projection_leakage": {
+      "dtype": "float64",
+      "shape": [
+        1000,
+        13,
+        11,
+        2
+      ]
+    },
+    "projection_ranks": {
+      "dtype": "uint8",
+      "shape": [
+        1000,
+        13,
+        11,
+        2
+      ]
+    },
+    "refit_projection_ranks": {
+      "dtype": "uint8",
+      "shape": [
+        1000,
+        13,
+        11,
+        2
+      ]
+    },
+    "risk_change": {
+      "dtype": "float64",
+      "shape": [
+        1000,
+        13,
+        11
+      ]
+    },
+    "singular_min_max_ratio": {
+      "dtype": "float64",
+      "shape": [
+        1000,
+        13,
+        11,
+        2
+      ]
+    },
+    "source_covariance_sha256": {
+      "dtype": "|S64",
+      "shape": [
+        1000,
+        13,
+        2
+      ]
+    },
+    "source_response_moment_sha256": {
+      "dtype": "|S64",
+      "shape": [
+        1000,
+        13,
+        2
+      ]
+    },
+    "step": {
+      "dtype": "int64",
+      "shape": [
+        11
+      ]
+    },
+    "target_data_sha256": {
+      "dtype": "|S64",
+      "shape": [
+        1000,
+        13
+      ]
+    },
+    "task_prefix_data_sha256": {
+      "dtype": "|S64",
+      "shape": [
+        1000,
+        13,
+        3
+      ]
+    },
+    "trajectory": {
+      "dtype": "int64",
+      "shape": [
+        1000
+      ]
+    }
+  },
+  "axes": {
+    "dictionary_column": [
+      0,
+      1
+    ],
+    "fit_method": [
+      "pilot",
+      "pooling",
+      "unprojected",
+      "projected",
+      "projection_removed"
+    ],
+    "n0": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      70,
+      100,
+      200,
+      300,
+      400,
+      500,
+      700,
+      1000
+    ],
+    "penalty": [
+      "lam0",
+      "lambar",
+      "eta",
+      "lam",
+      "lam_j1",
+      "lam_j2"
+    ],
+    "source": [
+      1,
+      2
+    ],
+    "step": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "task": [
+      "target",
+      "source_1",
+      "source_2"
+    ],
+    "trajectory": "independent confirmation replication"
+  },
+  "fingerprints": "SHA-256 of contiguous float64 byte representations, same order as original samplers",
+  "initial_support": "Boolean source-by-dictionary masks, held fixed for every iteration.",
+  "observations": "Raw observation matrices are regenerated from registered streams; they are not duplicated here.",
+  "theta_semantics": "theta[0] is initial Lasso; theta[k>=1] is restricted unpenalized LS at A[k].",
+  "undefined_values": "Zero placeholders only where the corresponding applicability mask is false."
+}

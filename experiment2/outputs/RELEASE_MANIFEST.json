@@ -1,0 +1,451 @@
+{
+  "excluded_directories": [
+    ".runs",
+    "__pycache__",
+    ".pytest_cache",
+    ".cache",
+    ".venv"
+  ],
+  "files": {
+    ".gitattributes": {
+      "bytes": 104,
+      "sha256": "056eff7f85b8ceda7d807cdea4d0b10592755b8589cfbeae54d187921c78b527"
+    },
+    ".gitignore": {
+      "bytes": 98,
+      "sha256": "a3b9268af8f8682665b7fb5aeb57fc6723522d86ea9da7d7d7bf38b03a5d6ed8"
+    },
+    "LITERATURE_BASELINES.md": {
+      "bytes": 3351,
+      "sha256": "ad44bbe1da5f50a8960b061ca47d5e3d16996e298352208488d1579b9b6bf793"
+    },
+    "README.md": {
+      "bytes": 3200,
+      "sha256": "5468bf00628b52768652ad69bf04b98f8e3deebe739208eb965d0f716853a174"
+    },
+    "experiment2/EXPERIMENT_SETUP.md": {
+      "bytes": 2586,
+      "sha256": "f0e138d4a911fe163fc062501edb0087fbc77b68dfe59e29adec2f85ce844fea"
+    },
+    "experiment2/README.md": {
+      "bytes": 4275,
+      "sha256": "1e0f69d3f387d1579cb854a9ed708a221d20c8d5b88acb0886856d3413edcf0a"
+    },
+    "experiment2/advection_n0.py": {
+      "bytes": 7797,
+      "sha256": "42a8d3c32ed4769dff49303991f4bdb99e2c1539a5b4b52192d3531c9f4101bc"
+    },
+    "experiment2/configs/advection_n0.yaml": {
+      "bytes": 1150,
+      "sha256": "86ad7c4d43428e16261c24e40c2bed7129fe545e67bc5cb0d8a5cdbe31411b2c"
+    },
+    "experiment2/configs/advection_sigma.yaml": {
+      "bytes": 1339,
+      "sha256": "df32ca31a8ce2d373878eaeb3b78ef5b6bbf57fa73a708b284404e6c0d3f877c"
+    },
+    "experiment2/configs/literature.yaml": {
+      "bytes": 2830,
+      "sha256": "ffe5386607e1c5c9c21c7e06b2a1a75b137fd5f0f02cd24d1273c23fd588c209"
+    },
+    "experiment2/literature.py": {
+      "bytes": 22759,
+      "sha256": "6424c944cf9952fd4b6ea261d76e7be95064231e9d394b816a8a1e8fabe59e27"
+    },
+    "experiment2/outputs/PROVENANCE.json": {
+      "bytes": 13326,
+      "sha256": "fb8b795995391e5bc6a52c707b32168becfc5e4c0752822accc745cedf7dcae3"
+    },
+    "experiment2/outputs/data/advection_sigma/cell000.npz": {
+      "bytes": 25685,
+      "sha256": "d0a3613c27279255103667d4c99d64a2011306d2510186c17f90b470ef1f2206",
+      "source_sha256": "78a48a125b78c134fb853db7b8a23a2c503be1c057131d26c6262d6c7b436b7b",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/data/advection_sigma/cell001.npz": {
+      "bytes": 25832,
+      "sha256": "9ec1ade175e8a65866cd71686a7881cde803a6535a4bac1e4d143524a7a5abd5",
+      "source_sha256": "94f95923dbe97c7ed3403bd58a3fbfad41cfe5ada6c1cee819eb0524b8e77cdd",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/data/advection_sigma/cell002.npz": {
+      "bytes": 26022,
+      "sha256": "078704b1627a79d2cc6420131d7facc22e3f2615ae2bcf1d0e78209378fef2e6",
+      "source_sha256": "cebdc6a54c2c107267f468cca82df3187eaa8915038057f23766f4634a8034e0",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/data/advection_sigma/cell003.npz": {
+      "bytes": 26329,
+      "sha256": "a9f86eb05406393f7688e523b395c968b095e1f20b0e79f122af23bb660a89e1",
+      "source_sha256": "a659da49e2abb01838b35d84e04e4d4673df31b1d769a4012fae1970a597c2af",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/data/advection_sigma/cell006.npz": {
+      "bytes": 25668,
+      "sha256": "5685a40ff0be87142e43ae0d9873a8844aa7269d88a198691a7d60fadc1249bb",
+      "source_sha256": "db58014e210c0858d52ff00e40b917d0c517adfd082f66a7443999066af69fc7",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/data/advection_sigma/cell007.npz": {
+      "bytes": 25804,
+      "sha256": "70e91279dd52834dcf16c27515d90416e123cde73bb2e9426b552c8b0787ca57",
+      "source_sha256": "b562bed7566d58492b6fe582c6de86c2b5203cb982fe67f50df1cfc6748f7b2f",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/data/advection_sigma/cell008.npz": {
+      "bytes": 25960,
+      "sha256": "c5ef2e233fb3d89c031868653abea5e9c2ad264086853acf950761dc5b2ddbaa",
+      "source_sha256": "26deda3294f3bab59d8fab4a3e28463fdaa272f8169dfb2328b4d6b4ad78da03",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/data/advection_sigma/cell009.npz": {
+      "bytes": 26199,
+      "sha256": "ca8a8b726877352efb7b6014020f178ed10f04e844a688ebd9114923b5aefdb6",
+      "source_sha256": "ba5ac920ebe89ae1f9967b86b5eba573a2f4d43bf9d52c773f7f1f2258ae82e4",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/advection_n0/SUMMARY.json": {
+      "bytes": 12362,
+      "sha256": "6101803c64c271a9e9221dcd4aa4445b08eb5155b1ff76cca280ba2499e520fc",
+      "source_sha256": "38940f70362bc176cf9d7049823bb665e129c9d0ab1d709bf59ee57133272eb7",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/advection_n0/risks.npz": {
+      "bytes": 148203,
+      "sha256": "3df0aff7bb6beb155b83d376159b303d6b1eb27a0d692f9ff1aed8121c1eb7ed",
+      "source_sha256": "940b37246e9f7500428bf6c260a54ac868e7ef509fff1cedfa42d8a6be34888e",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/advection_sigma/SIGMA_SUMMARY.json": {
+      "bytes": 34090,
+      "sha256": "05f8108efdb71cd81ec422c5d2e48fccb702aa3269f9a0beea24548c0990568c",
+      "source_sha256": "3afb15fbc9d543441a43b7f461024f3438bddec615447aa2a34ed87fd7fe2e3b",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/literature/DIAGNOSTICS.json": {
+      "bytes": 2306,
+      "sha256": "5254383270cb8f738fc4bb24aaf3b0ed989d7bd9126d1b4667180b340699dcd6",
+      "source_sha256": "8452eadf53d0880c03cfe3ad51a843f136c8f235f64ba6a299bfe75b09e5a5cb",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/literature/advection_n0/SUMMARY.json": {
+      "bytes": 13258,
+      "sha256": "d822027e6565132b88abd8bb33e5b929d506d2422a15d45a62791d5494d07f93",
+      "source_sha256": "535032dbab5fcc6a331108f59ccf3d492b892adf772ef5a14d3002ced937b8b3",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/literature/advection_n0/development_summary.npz": {
+      "bytes": 77646,
+      "sha256": "7cd829fac953ef6aa5ced1d4f68ce8133a5467c0125c51ac755c6fefef2e05ba",
+      "source_sha256": "34abe2ec02b6ef5bcb8b8bc80de9c5bae95f393ab1e93943b075d2b72b664837",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/literature/advection_n0/frozen_parameters.csv": {
+      "bytes": 5914,
+      "sha256": "83d3e14d4a05083f0040efdca20b13d975e3af813de270393ab8dbda911c2143",
+      "source_sha256": "1836ceae433d649c6d91161e5610ce66f83526491f4abcc9939034364b0cd023",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/literature/advection_n0/paired_comparisons.csv": {
+      "bytes": 12839,
+      "sha256": "346c75c0927e378396c0d34764bee60da3e293d08e56df8263fd008bb17d7b58",
+      "source_sha256": "47c300b15416d06d97586a911c337dd054f5706f3dff628000728ec68c8a0d77",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/literature/advection_n0/risks.npz": {
+      "bytes": 141274,
+      "sha256": "c35e96e1ae36a1ddb2a5d021b8b415257a65c2b2e09eafa3f23a2962462f8c39",
+      "source_sha256": "0d3cb1c3cecdd34e9f0086e050371963b540c884a18ac8d082d5bf4d3b8371f1",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/literature/advection_sigma/SUMMARY.json": {
+      "bytes": 11904,
+      "sha256": "25b5293b4507b87263234762131de5ce2365978c2c7168dd6c14deda437d6bba",
+      "source_sha256": "ddd609c3c0e9d0a56f2fb8a7fe7eef02808cf8fa65bd86442506b800e749b91d",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/literature/advection_sigma/development_summary.npz": {
+      "bytes": 70005,
+      "sha256": "fd78bb5ca87d4de7f466dd448ee4047da3bc6e6fb539fb9792de41db37a14460",
+      "source_sha256": "9757dc2a66d33c638add831dd5b85f125d22c5e5e40be0759ed012981553fe49",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/literature/advection_sigma/frozen_parameters.csv": {
+      "bytes": 5327,
+      "sha256": "ea15e0bc86f8c2749c1615bc09bfe1436ffff93d55d4be0cae19ffe772e6ea56",
+      "source_sha256": "5840fd2017a5f44b8231037f0acd906442dda9a74cd2d53a362dc92c7322bc93",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/literature/advection_sigma/paired_comparisons.csv": {
+      "bytes": 11403,
+      "sha256": "12e1c3324010b2dd54f1dae3ffcb53d6361edf6509d54871dc2476ee8d8b95cb",
+      "source_sha256": "ec6585a364d1570fe6282a6f237e44f0eefae09cc0aef2486b645e6874464f48",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/outputs/results/literature/advection_sigma/risks.npz": {
+      "bytes": 124498,
+      "sha256": "c97a8190a615d86ecaf1b616e7c3546813161aad856fee3ae7a672b956294a01",
+      "source_sha256": "fbaff65a5d3ead1ccaa64be8830f299ea28b237ad548745ea8fc099d1f7b49e0",
+      "transformation": "Restricted to final-paper methods, cells and fields; retained scientific values unchanged."
+    },
+    "experiment2/run.py": {
+      "bytes": 5125,
+      "sha256": "bf6d3ee65a57e78b209f424cbdd56aec808e72c6ab1e08cde9d73591896530f6"
+    },
+    "pyproject.toml": {
+      "bytes": 454,
+      "sha256": "24f1967a830548d5fa3e2d59fb080ca5b5151e2098f438a4b6de4f1f956e139b"
+    },
+    "requirements-dev.txt": {
+      "bytes": 34,
+      "sha256": "11b0006f4e3d389726c8528c5b6797083f14aeaf1ea854cb961f975ad0ae3b39"
+    },
+    "requirements.txt": {
+      "bytes": 41,
+      "sha256": "801d46f99236ecbfbe307e34ffd6c9d72a71429b17d233280c2af420334c147f"
+    },
+    "tests/README.md": {
+      "bytes": 2849,
+      "sha256": "ddd49538156bc2bd3e0a31fad52ce108098e1beab048b8c36f1f1b37d60910a4"
+    },
+    "tests/_paths.py": {
+      "bytes": 352,
+      "sha256": "857d6c70753264e5795bad0c22af917d2da28143f98fbd968befded2d016d320"
+    },
+    "tests/fixtures/confirmation_baseline.json": {
+      "bytes": 1559,
+      "sha256": "af4847761c46b49c52819ce6b8e6110d10152e2deabfa1108706af86d276690f"
+    },
+    "tests/fixtures/confirmation_baseline.npz": {
+      "bytes": 41455,
+      "sha256": "6c23fea8988ad480e97035be9f195673c4bf3589caf06a9e416f201d4d8c4d13"
+    },
+    "tests/fixtures/development_baseline.json": {
+      "bytes": 5279,
+      "sha256": "781c1c2b81d94e6c79f29cb1d3ab403cd131302aec2a9777ab81eee2faa6ebf2"
+    },
+    "tests/fixtures/development_n0010_r0000.npz": {
+      "bytes": 53824,
+      "sha256": "9b9b41b01172684854e329de27d29e982579cfc73628b8a156e96cbb943dfb08"
+    },
+    "tests/fixtures/development_n0100_r0000.npz": {
+      "bytes": 54293,
+      "sha256": "366c4f4347fcbff368c2d652eb25b2c634838bae4fc025db5eb36456ad2012b8"
+    },
+    "tests/fixtures/development_n1000_r0000.npz": {
+      "bytes": 55413,
+      "sha256": "e92d9fcf3734326f09cfdf9536dd16449685293df9d2a915db0eb62069b9a7e3"
+    },
+    "tests/fixtures/retained_results_sha256.json": {
+      "bytes": 880,
+      "sha256": "4542919edeba5c4b6be601da586275dc2fd27edcfee0df16dd179a3993ef5feb"
+    },
+    "tests/seal_manifests.py": {
+      "bytes": 3113,
+      "sha256": "160d1097cc59a5aa21a1f84f7d032298165bb78aaafa252cf53a0fc5a327fb72"
+    },
+    "tests/test_config.py": {
+      "bytes": 5319,
+      "sha256": "b8496cde4990d614e6fbed6edbeb1f86e42f2ff198c4832f0dd7f140313058b4"
+    },
+    "tests/test_experiment2_advection_n0.py": {
+      "bytes": 3170,
+      "sha256": "dabe0a1b3430196ba8da6c745dd180e3358a8b9eece079bdf47208456ea92c18"
+    },
+    "tests/test_experiment2_models.py": {
+      "bytes": 10447,
+      "sha256": "25f60f7e028870e6f387045cf1b82839bc3f4b88b7158c486cf5adcf3be5d269"
+    },
+    "tests/test_experiment2_records.py": {
+      "bytes": 5649,
+      "sha256": "a6e4adf662c24ab117dfdb96f2e7876207520b23617b087e9e566ae881ff12b2"
+    },
+    "tests/test_experiment2_replications.py": {
+      "bytes": 3286,
+      "sha256": "5ec4df213a8500b9007130242b18e1bd638edd9b4d9f6b11d156f7440ddc6c61"
+    },
+    "tests/test_experiment3_ltv.py": {
+      "bytes": 16906,
+      "sha256": "134f6ac9f99fe70150bf58300236dad503c97a5a8e1ae7d005e0acfaf618e797"
+    },
+    "tests/test_literature.py": {
+      "bytes": 21810,
+      "sha256": "c9a00e0aa20c4df28dfba6514cd849c401c961ecac561678e51ab3b672b17afb"
+    },
+    "tests/test_manifests.py": {
+      "bytes": 6321,
+      "sha256": "15f8032dea739ac80dce569468dc2447a80830901fb18d74cb234ca397aebd1c"
+    },
+    "tests/test_pde_records.py": {
+      "bytes": 4990,
+      "sha256": "29fb153e996e67c09dd7715076926ec88a9cf0515b4427245d27965a93fbdb5a"
+    },
+    "tests/test_pde_rules.py": {
+      "bytes": 5690,
+      "sha256": "f30555fdb1a6cec5ec82472708285f02b8d2e89568921ea9592830e8ff2e2efe"
+    },
+    "tests/test_shared_api.py": {
+      "bytes": 6105,
+      "sha256": "5f7c641f9e6706be4bc17b88b0f9589baadffe857919c435137b1fbc921fbc5a"
+    },
+    "tests/test_validation.py": {
+      "bytes": 5185,
+      "sha256": "43b1d6b3f5201edd6e84f3c365095d87748a90e458375ffb73cfee2b4834eafc"
+    },
+    "tests/validate_equivalence.py": {
+      "bytes": 8406,
+      "sha256": "68d30e14916b8b91645b8046efbc1a7932a989387290381100c4ab855aa0ab3f"
+    },
+    "tests/validate_estimators.py": {
+      "bytes": 6202,
+      "sha256": "b2e9e0a377dfe2ea93ecfa423d32d53887f43c381c288eaef05f765a6006d8b3"
+    },
+    "tests/validate_manifests.py": {
+      "bytes": 3269,
+      "sha256": "dc3bd72c94b2e44c1023eb9bd41f00d7b1425ce7b3b8e5c1e80337d532e7269b"
+    },
+    "tests/validate_refits.py": {
+      "bytes": 9543,
+      "sha256": "65a92c7c755ec6800549861bfcb271fa5f13643ed0fae7ea984ff2fe8de8193a"
+    },
+    "tests/validate_release.py": {
+      "bytes": 7957,
+      "sha256": "119064847d519a69046dac2d9a3a288d21c67fb26c15d7e21dd361b9b4440ede"
+    },
+    "transfer_operator/__init__.py": {
+      "bytes": 1692,
+      "sha256": "a5fdf170bb5248437043f5232fb707402bd457488676a0bfecc83e434fd8cef1"
+    },
+    "transfer_operator/config.py": {
+      "bytes": 7092,
+      "sha256": "c39660db9d77031a8fbaac4a78eb1a492e01a26c281f0c342e8880bf0b273b9b"
+    },
+    "transfer_operator/development.py": {
+      "bytes": 3114,
+      "sha256": "44cca3ad9557d4aa0e989f693650cefab9664ff4322d3f60f8b1d882419d5728"
+    },
+    "transfer_operator/diagnostics.py": {
+      "bytes": 7953,
+      "sha256": "374e1891df933d5373d1872f68245dd9d4d56e944c8d0583da85a86c203447de"
+    },
+    "transfer_operator/estimators.py": {
+      "bytes": 23835,
+      "sha256": "c4fd988ec5c03127420c1b0dbcd69541e323b9d6ca4164fd51458faeeb4db23e"
+    },
+    "transfer_operator/literature/__init__.py": {
+      "bytes": 880,
+      "sha256": "f7606ea6cf5b71079d7181baf28085e9fd673291fa6b81abb749e5953c96f7b3"
+    },
+    "transfer_operator/literature/advection.py": {
+      "bytes": 11240,
+      "sha256": "af1798645aaa9c240d6107e4f52bf6dc39cb9d95f8ea4d277c9f2c88db3396cb"
+    },
+    "transfer_operator/literature/aggregation.py": {
+      "bytes": 4669,
+      "sha256": "7a6b3e0797cbe25ed8ab47065e47bacd6a6dffdd687acbcd4d1c1a1d9ade04c3"
+    },
+    "transfer_operator/literature/core.py": {
+      "bytes": 6841,
+      "sha256": "b995ccd986cc73e24957c2ba0ae6384dfa84b5b0d21dabf9718b14ece9de6907"
+    },
+    "transfer_operator/literature/functional.py": {
+      "bytes": 13090,
+      "sha256": "9124c87a206ea06351e226a798b22ccfbdb44b0675b71e4acbafcbc2e9d6892a"
+    },
+    "transfer_operator/literature/lasso.py": {
+      "bytes": 6482,
+      "sha256": "4c7b15044a8150ab1c9849820be120be9ebdcf1c527576061953c7008551a44b"
+    },
+    "transfer_operator/literature/ltv.py": {
+      "bytes": 14583,
+      "sha256": "a5c06095a8f49e96b0d7789af27c55cdcd13e09607860b9a631cb6c4a2c8ae6a"
+    },
+    "transfer_operator/ltv/__init__.py": {
+      "bytes": 749,
+      "sha256": "1bf6f4de343f33776414a529d305b1a44fecf4e53673e94e4e4f28c4be10d638"
+    },
+    "transfer_operator/ltv/banded.py": {
+      "bytes": 10921,
+      "sha256": "47a7b879a91fd314d3c2976610ef9ab0748f23ae3981980cd0e5510d883ad96a"
+    },
+    "transfer_operator/ltv/calibration.py": {
+      "bytes": 3869,
+      "sha256": "57354382db7d0276bcb2fefe93c7a960d98c5327ff537284a8e088d99dfae8c1"
+    },
+    "transfer_operator/ltv/catalog.py": {
+      "bytes": 6053,
+      "sha256": "aa62924138f31c0beda296afc0bc8a308e96ecc94c12bfadbc849086352d0441"
+    },
+    "transfer_operator/ltv/design.py": {
+      "bytes": 4974,
+      "sha256": "fe91afa8a2b24a004be16bc4dbaab03501a590c96ead852e3144a53a2d29f9d1"
+    },
+    "transfer_operator/ltv/harmonic.py": {
+      "bytes": 5781,
+      "sha256": "015978d1d97b7e8a1bd513b64afa0d4661582bb3c2395f0c9185ccf9638815b8"
+    },
+    "transfer_operator/ltv/pipeline.py": {
+      "bytes": 9655,
+      "sha256": "a64b00d493b3862d977a33e6682a69e01bbc1d6fcece3fdc3e905b67887ab9c4"
+    },
+    "transfer_operator/ltv/pooling.py": {
+      "bytes": 3291,
+      "sha256": "3a194fb5ea84634a02ab154d7159025881525c1fb1f67ec110d7a8d40d9052e0"
+    },
+    "transfer_operator/ltv/records.py": {
+      "bytes": 6182,
+      "sha256": "d758a9a7d4b003167258af075f98185d617863c1121e36cca5b1c62c54d8a923"
+    },
+    "transfer_operator/model.py": {
+      "bytes": 5580,
+      "sha256": "e288f754aa6e69b5c491f72e12d001448de974753fd41e99eb66cb657b1d3c55"
+    },
+    "transfer_operator/pde_config.py": {
+      "bytes": 4385,
+      "sha256": "8fea2e5933e1f95d00dfd257c6d895c897f04f69565109526caeba0d481bc6d1"
+    },
+    "transfer_operator/pde_estimators.py": {
+      "bytes": 9589,
+      "sha256": "ea59c808139b7ebe4feb57e8cc58dba102658f9e3cd0fefa1c89520dcef9c94d"
+    },
+    "transfer_operator/pde_models.py": {
+      "bytes": 5524,
+      "sha256": "eba8931dcf48c1ceeb4d6b0ea829abf186d67ee7791cc7372841d0f4b9a753f7"
+    },
+    "transfer_operator/pde_moments.py": {
+      "bytes": 3231,
+      "sha256": "e2ed9a3ff3bc7f644cf34cd7447d8394ab2a4bf4b99dfd9b3ee57493ed06e174"
+    },
+    "transfer_operator/pde_pipeline.py": {
+      "bytes": 8114,
+      "sha256": "8d7787c91cb79f668d6f55dba34f6ad169dda3bb87e78fabf66dc98aed3be217"
+    },
+    "transfer_operator/pde_records.py": {
+      "bytes": 8568,
+      "sha256": "0b48b1e4c2308145ca40e087774ecba592afffe4fdf096dc564d27aa80d7e823"
+    },
+    "transfer_operator/pde_replication.py": {
+      "bytes": 4239,
+      "sha256": "252b44fbc4a9ce5a811c9b830c211abda26c2f5c92dc6999316f59ac62194545"
+    },
+    "transfer_operator/reporting.py": {
+      "bytes": 13301,
+      "sha256": "dd9ddccad6d7d1cedda5961a951af68a2233ef0dc94d102af07fdd11521d1348"
+    },
+    "transfer_operator/runner.py": {
+      "bytes": 9108,
+      "sha256": "5ec10ccb84bf1c48430f96d169a0509a42ea3a718ef90e7623efc5832c9f9d69"
+    },
+    "transfer_operator/simulation.py": {
+      "bytes": 9208,
+      "sha256": "b98a2f55891618d4f263eec7e993f8c8fbf5f162fa1e676e3407499055a66dab"
+    },
+    "transfer_operator/stages.py": {
+      "bytes": 3106,
+      "sha256": "dcb1687e3844b185c1174ef6f5dc65e8aa9cca5cacc35e0bcb5ece8c0ad7edeb"
+    }
+  },
+  "package": "OpTrans",
+  "path_root": ".",
+  "release": "experiment2",
+  "source_commit": "6f4225d9b8c5724d0394c9c7a78bf1ed22bec8bd"
+}

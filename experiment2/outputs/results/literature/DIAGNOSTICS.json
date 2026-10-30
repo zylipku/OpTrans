@@ -1,0 +1,92 @@
+{
+ "scenario": "advection_n0",
+ "sigma": 0.25,
+ "replications": 300,
+ "seed": 202610250601,
+ "units": 313,
+ "contrast": [
+  {
+   "source": 1,
+   "risk": 0.030850780938672943,
+   "constant_mode": 0.0,
+   "abs_sin_angle": 0.23708716139967922,
+   "share_in_top_units": {
+    "6": 0.9947330977324627
+   }
+  },
+  {
+   "source": 2,
+   "risk": 0.030850780938672946,
+   "constant_mode": 0.0,
+   "abs_sin_angle": 0.23708716139967922,
+   "share_in_top_units": {
+    "6": 0.9947330977324625
+   }
+  }
+ ],
+ "cells": [
+  {
+   "cell": "n0_16",
+   "n0": 16,
+   "target_least_squares": 0.0047003653379323425,
+   "constant_mode_share": 0.8843782861132361,
+   "target_least_squares_first_half": 0.00906323032470863
+  },
+  {
+   "cell": "n0_32",
+   "n0": 32,
+   "target_least_squares": 0.002606818506685699,
+   "constant_mode_share": 0.897835727981832,
+   "target_least_squares_first_half": 0.0047003653379323425
+  },
+  {
+   "cell": "n0_64",
+   "n0": 64,
+   "target_least_squares": 0.001146421887521258,
+   "constant_mode_share": 0.8807620875758184,
+   "target_least_squares_first_half": 0.002606818506685701
+  },
+  {
+   "cell": "n0_128",
+   "n0": 128,
+   "target_least_squares": 0.0005538342930751844,
+   "constant_mode_share": 0.8755765442289438,
+   "target_least_squares_first_half": 0.0011464218875212586
+  },
+  {
+   "cell": "n0_256",
+   "n0": 256,
+   "target_least_squares": 0.0002901504932599096,
+   "constant_mode_share": 0.8794671099408622,
+   "target_least_squares_first_half": 0.0005538342930751849
+  },
+  {
+   "cell": "n0_512",
+   "n0": 512,
+   "target_least_squares": 0.00014180061389945257,
+   "constant_mode_share": 0.8734130350458927,
+   "target_least_squares_first_half": 0.00029015049325990984
+  },
+  {
+   "cell": "n0_1024",
+   "n0": 1024,
+   "target_least_squares": 7.162284717353769e-05,
+   "constant_mode_share": 0.8764524854499272,
+   "target_least_squares_first_half": 0.00014180061389945263
+  },
+  {
+   "cell": "n0_2048",
+   "n0": 2048,
+   "target_least_squares": 3.846381028040206e-05,
+   "constant_mode_share": 0.8874778264598555,
+   "target_least_squares_first_half": 7.16228471735376e-05
+  },
+  {
+   "cell": "n0_4096",
+   "n0": 4096,
+   "target_least_squares": 1.8796150725888294e-05,
+   "constant_mode_share": 0.8867821641119061,
+   "target_least_squares_first_half": 3.846381028040214e-05
+  }
+ ]
+}

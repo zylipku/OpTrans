@@ -1,0 +1,133 @@
+{
+  "numeric_environment": {
+    "numeric_threads": {
+      "MKL_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1"
+    },
+    "numpy": "2.5.2",
+    "python": "3.12.3",
+    "scipy": "1.18.1"
+  },
+  "origin": "Recomputed with the unmodified pre-migration release/table1_projection engine.",
+  "origin_commit": "ef1405ff",
+  "scope": "Three development identities; all candidate risks and data fingerprints. Historical compact development output stores aggregate mean/MCSE, not individual worlds.",
+  "source_sha256": {
+    "config/design.json": "71de9088cb07dea4f4121e63f01c3a20b08ee3ea050b544b8587b0ff35ae0f9f",
+    "config/dgp.json": "008f3127beef4f5112806011433849573b0f005541295be0dcb68310ab855f71",
+    "src/__init__.py": "d3a24db816d7d33a158b9a50c26ae3d465ccfae333c0affa79424d1de67553ee",
+    "src/development.py": "d7be9f48423083441f178433230d94bae731eb528b65d94d9441375c1bbf956a",
+    "src/diagnostics.py": "c535794668faf598b522ffe943d0555139edeb51d453b6ca5c1692a81f8534f9",
+    "src/estimators.py": "347ddfa6f2c5a98b2a508b4c428f054bc5ae6ba78349b419e45ffff0645cd0f6",
+    "src/model.py": "3eea65575e937174682addaf41b78e777edc6213ce3d367626c3634e98d9e384",
+    "src/reporting.py": "99b9acb0ec3c00bb8e651b708fcd8e082ea820c84d75ae4ef61783c542eccbcd",
+    "src/simulation.py": "3ea0b8de0154cbd6179c95d56ccd4f8ed471cf2a9aa46d593b3b8c3b67c411d1"
+  },
+  "worlds": [
+    {
+      "file": "development_n0010_r0000.npz",
+      "n0": 10,
+      "record": {
+        "failures": [],
+        "identity": {
+          "exp_id": 2026101410,
+          "n0": 10,
+          "rep": 0,
+          "setting": {
+            "K_D": 16,
+            "N": 200,
+            "dictionary_sha256": "79af19c9f64c15856e6078c9f702742757c6300a01e3f8a2b9b51ff50b25c98a",
+            "id": "n0010_r20",
+            "model_arrays_sha256": "2274eab5d606d75adc41765d4a7efd904a3d33061608c366cc47e22557e3380d",
+            "n0": 10,
+            "n1": 95,
+            "n2": 95,
+            "ratio": 20
+          },
+          "source_covariance_sha256": [
+            "16fc4232513074162f191d29820886bb413ab94d674202e0166dd468cda6ba41",
+            "783867963864933bc7efb580adb2a4543eb3b5bb7cc7ac3b60392bfca8b77675"
+          ],
+          "source_response_moment_sha256": [
+            "dc19d70d41810de76ec923ee420a3ac9d0ab011e53e277abfae24e1a8f9d793c",
+            "2851fbf3b67dfebf814b6d4a5dcc982120093671132443be20f7bf72278da311"
+          ],
+          "target_data_sha256": "d0ee939149164f8249acf55759064ac38ef3ab530cfc7a7c9d3158b18abf06ab"
+        },
+        "status": "ok"
+      },
+      "rep": 0,
+      "sha256": "9b9b41b01172684854e329de27d29e982579cfc73628b8a156e96cbb943dfb08"
+    },
+    {
+      "file": "development_n0100_r0000.npz",
+      "n0": 100,
+      "record": {
+        "failures": [],
+        "identity": {
+          "exp_id": 2026101416,
+          "n0": 100,
+          "rep": 0,
+          "setting": {
+            "K_D": 16,
+            "N": 2000,
+            "dictionary_sha256": "79af19c9f64c15856e6078c9f702742757c6300a01e3f8a2b9b51ff50b25c98a",
+            "id": "n0100_r20",
+            "model_arrays_sha256": "2274eab5d606d75adc41765d4a7efd904a3d33061608c366cc47e22557e3380d",
+            "n0": 100,
+            "n1": 950,
+            "n2": 950,
+            "ratio": 20
+          },
+          "source_covariance_sha256": [
+            "32ae41c0932c7a9e4caa17b8af08895f2e449fd7a5c83fd81cd101fe45ae2bd4",
+            "fe4ce9e2e19c07e3fb1f368c679bf04c2963ea26fe922211cd81357ec59258a0"
+          ],
+          "source_response_moment_sha256": [
+            "07ba7ba6f4b1f6891f7ed26e95b83a40ef5d5e40e6e0c9dc582d4ae32e149359",
+            "3901d72c0f654512e9029c989de5d9531c77f980ad9c93317135f81cd246ed33"
+          ],
+          "target_data_sha256": "c5acbb52c9f55961dbc78b1904bef5069cbd247359f8fc8a69ed8b1d9cab83ea"
+        },
+        "status": "ok"
+      },
+      "rep": 0,
+      "sha256": "366c4f4347fcbff368c2d652eb25b2c634838bae4fc025db5eb36456ad2012b8"
+    },
+    {
+      "file": "development_n1000_r0000.npz",
+      "n0": 1000,
+      "record": {
+        "failures": [],
+        "identity": {
+          "exp_id": 2026101422,
+          "n0": 1000,
+          "rep": 0,
+          "setting": {
+            "K_D": 16,
+            "N": 20000,
+            "dictionary_sha256": "79af19c9f64c15856e6078c9f702742757c6300a01e3f8a2b9b51ff50b25c98a",
+            "id": "n1000_r20",
+            "model_arrays_sha256": "2274eab5d606d75adc41765d4a7efd904a3d33061608c366cc47e22557e3380d",
+            "n0": 1000,
+            "n1": 9500,
+            "n2": 9500,
+            "ratio": 20
+          },
+          "source_covariance_sha256": [
+            "a99151f755ee66be2db9c35c7d8def2ef772bf0d71c967e1a10dcfe68ee560b5",
+            "f877bd3b3a57f5cbfb59bd468d5ed37659bf6fa2d833b36ffd34e6e8ed54c5c4"
+          ],
+          "source_response_moment_sha256": [
+            "edfdf56a67af9160413f2b70fedbfbec5bb56159d0dc2a6915b5324c4fd2a360",
+            "aee0863654acdd1626e0f8c9021f744d34a66dd55e79df858a4b3e5c84c8166d"
+          ],
+          "target_data_sha256": "dc1408b96e18c57cf529333e34f7443f3fd502aa8c0501003436bdecef603169"
+        },
+        "status": "ok"
+      },
+      "rep": 0,
+      "sha256": "e92d9fcf3734326f09cfdf9536dd16449685293df9d2a915db0eb62069b9a7e3"
+    }
+  ]
+}
